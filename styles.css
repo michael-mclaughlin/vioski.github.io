@@ -2,15 +2,30 @@ body{
     background-color: #f3f3f3;
     margin: 0;
     padding: 0;
+
+}
+
+section{
+    display: flex;
 }
 
 .div-background-white {
     background-color: #ffffff;
-    width: 200px;
-    height: 200px;
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 
-.tulla{
-    background-image: url('assets/')
+.tuula {
+    background-image: url('assets/tuulaGreen.png');
+
+}
+
+.tuulaLoveseat {
+    background-image: url('assets/tuulaLoveseat.png');
 }
