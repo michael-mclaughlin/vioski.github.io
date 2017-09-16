@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32fbe529-9fe6-4c86-a9f1-825ac1ab3591" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/2012024 Brenton Table Rectangular shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/2012024 Brenton Table Rectangular.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG 2222 Aiden Console shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG 2222 Aiden Console.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1023 Tuulla green .png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1023 Tuulla green shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1179 Angeles Chair pink shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1179 Angeles Chair pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1369 Fratelli gray shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1369 Fratelli gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1638 Chicago Sofa gray shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1638 Chicago Sofa gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1638 Chicago Sofa green shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_1638 Chicago Sofa green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_2049 Shea Sectional shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_2049 Shea Sectional.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_2217 Shea Console shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_2217 Shea Console.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_2574 Sotto Table  shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_2574 Sotto Table .png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_3294 William gray shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_3294 William gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_3644 Milo orange shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_3644 Milo orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_4561 Palms II Chair Swivel gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_5073 Chicago Chair blue shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_5073 Chicago Chair blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_5549 Coppia Lounge shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_5549 Coppia Lounge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_8317 Palms Loveseat gray shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/IMG_8317 Palms Loveseat gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Metro Bench black leather shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Metro Bench black leather.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/_MG_2878 Nicholas Sectional shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/_MG_2878 Nicholas Sectional.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/_MG_4639 Palms I Chair Ottoman green shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/_MG_4639 Palms I Chair Ottoman green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/_MG_5439 Tuulla Loveseat shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/_MG_5439 Tuulla Loveseat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_1023 Tuulla green .png" afterPath="$PROJECT_DIR$/assets/tuulaGreen.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
@@ -57,21 +19,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            <state relative-caret-position="465">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="210">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -100,8 +62,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
@@ -135,6 +97,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vioski" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vioski" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vioski" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,7 +355,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="23" width="1257" height="869" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -395,7 +371,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28065842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28065842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -418,14 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -436,8 +404,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        <state relative-caret-position="465">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
