@@ -2,7 +2,6 @@ body{
     background-color: #f3f3f3;
     margin: 0;
     padding: 0;
-
 }
 
 section{
@@ -13,19 +12,84 @@ section{
     background-color: #ffffff;
     width: 50vw;
     height: 50vh;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     flex-direction: row;
-    justify-content: space-around;
 
 }
 
 .tuula {
     background-image: url('assets/tuulaGreen.png');
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
 
+.image-info {
+    width: 50vw;
+    height: 50vh;
+    opacity: 0;
+    background-color: rgba(255, 216,236, 1);
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+    display: flex;
+}
+
+.div-background-white:hover .image-info {
+    opacity: .8;
+}
+
+.image-info-text {
+    margin: auto;
 }
 
 .tuulaLoveseat {
     background-image: url('assets/tuulaLoveseat.png');
+}
+
+.palmsChair {
+    background-image: url('assets/palmsChair.png');
+}
+
+.palmsLoveseat {
+    background-image: url('assets/palmsLoveseat.png');
+}
+
+.sheaConsole {
+    background-image: url('assets/sheaConsole.png');
+}
+
+.sheaSectional {
+    background-image: url('assets/sheaSectional.png');
+}
+
+.parallax {
+    height: 80vh;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.branding {
+    background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+}
+
+.residential-image {
+    background-image: url('images/chicagoSofaZachEfron.jpg');
+
+}
+
+.commercial-image {
+    background-image: url('images/mitosiWorkPods.jpg');
+    /* background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        */
 }
