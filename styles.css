@@ -2,10 +2,17 @@ body{
     background-color: #f3f3f3;
     margin: 0;
     padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
 }
 
 section{
     display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .div-background-white {
@@ -16,7 +23,6 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     flex-direction: row;
-
 }
 
 .tuula {
@@ -27,11 +33,14 @@ section{
     transition: .5s ease-out;
 }
 
-.image-info {
+.image-info-chair,
+.image-info-loveseat,
+.image-info-console,
+.image-info-sectional,
+.image-info-console {
     width: 50vw;
     height: 50vh;
     opacity: 0;
-    background-color: rgba(255, 216,236, 1);
     -webkit-transition: .5s ease-out;
     -moz-transition: .5s ease-out;
     -o-transition: .5s ease-out;
@@ -39,7 +48,26 @@ section{
     display: flex;
 }
 
-.div-background-white:hover .image-info {
+.image-info-chair {
+    background-color: rgba(255, 216, 236, 1);
+}
+
+.image-info-loveseat {
+    background-color: rgba(146, 194, 196, 1);
+}
+
+.image-info-sectional {
+    background-color: rgba(217, 228, 235, 1);
+}
+
+.image-info-console {
+    background-color: rgba(197, 212, 233, 1);
+}
+
+.div-background-white:hover .image-info-chair,
+.div-background-white:hover .image-info-loveseat,
+.div-background-white:hover .image-info-sectional,
+.div-background-white:hover .image-info-console {
     opacity: .8;
 }
 
@@ -67,18 +95,32 @@ section{
     background-image: url('assets/sheaSectional.png');
 }
 
+.product-type {
+    font-weight: 200;
+}
+
 .parallax {
     height: 80vh;
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 80% 80%;
     background-attachment: fixed;
 }
 
-.branding {
+.parallax-image-info {
+    border: 1px solid red;
+    background: rgba(255, 255, 255, .8);
+    margin: 2rem 3rem;
+    background-image: url('images/chicagoSofaZachEfron.jpg');
+
+}
+
+.branding, .parallax-image-info, .parallax-image-info-mitosiSectional {
     background-repeat: no-repeat;
-        background-position: center;
+        background-position: 50% 50%;
         background-attachment: fixed;
+        left: 0;
+        top: 0;
 }
 
 .residential-image {
@@ -93,3 +135,8 @@ section{
         background-position: center;
         */
 }
+
+.parallax-image-info-mitosiSectional {
+    background-image: url('images/mitosiSectional.jpg');
+}
+
