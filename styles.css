@@ -6,8 +6,19 @@ body{
     font-weight: 300;
 }
 
+header {
+    height: 100vh;
+    background-image: url('assets/fratelliGrayShadow.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    padding: 2rem 3rem;
+}
+
 section{
     display: flex;
+    overflow-x: hidden;
 }
 
 a {
@@ -15,8 +26,20 @@ a {
     color: #000000;
 }
 
+.header-h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+.first-section {
+}
+
 .div-background-white {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 1);
     width: 50vw;
     height: 50vh;
     background-size: contain;
@@ -36,8 +59,7 @@ a {
 .image-info-chair,
 .image-info-loveseat,
 .image-info-console,
-.image-info-sectional,
-.image-info-console {
+.image-info-sectional {
     width: 50vw;
     height: 50vh;
     opacity: 0;
@@ -61,7 +83,7 @@ a {
 }
 
 .image-info-console {
-    background-color: rgba(197, 212, 233, 1);
+    background-color: rgba(178,221,240, 1);
 }
 
 .div-background-white:hover .image-info-chair,
@@ -100,31 +122,52 @@ a {
 }
 
 .parallax {
-    height: 80vh;
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position: 80% 80%;
+    background-position: center;
     background-attachment: fixed;
 }
 
 .parallax-image-info {
     border: 1px solid red;
     background: rgba(255, 255, 255, .8);
+    background-image: url('images/chicagoSofaZachEfron.jpg');
+
+}
+
+.parallax-image-info-p {
+    font-size: .8rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.parallax-image-info-p span {
+    display: block;
+    text-align: right;
+    text-transform: lowercase;
+    padding: .25rem 0;
+}
+
+.parallax-image-info-chicagoChairBlue {
+    margin: 3rem auto;
+    background-color: rgba(255, 255, 255, .8);
+    width: 80%;
+    padding: 0 2rem;
+    border-radius: .25rem;
+}
+
+.parallax-image-info {
     margin: 2rem 3rem;
-    background-image: url('images/chicagoSofaZachEfron.jpg');
-
-}
-
-.branding, .parallax-image-info, .parallax-image-info-mitosiSectional {
     background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-attachment: fixed;
-        left: 0;
-        top: 0;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    left: 0;
+    top: 0;
 }
 
-.residential-image {
-    background-image: url('images/chicagoSofaZachEfron.jpg');
+.chicagoChairBlue-image {
+    background-size: 50%;
+    background-position: 90% 45%;
+    background-image: url('assets/chicagoChairBlue.png');
 
 }
 
@@ -136,7 +179,8 @@ a {
         */
 }
 
-.parallax-image-info-mitosiSectional {
-    background-image: url('images/mitosiSectional.jpg');
+.parallax-image-info-chicagoChairBlue {
+    /*background-image: url('assets/chicagoChairBlue.png');*/
 }
 
+/* really great blue rgba(178,221,240) */
