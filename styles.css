@@ -1,0 +1,186 @@
+body{
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+}
+
+header {
+    height: 100vh;
+    background-image: url('assets/fratelliGrayShadow.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    padding: 2rem 3rem;
+}
+
+section{
+    display: flex;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+.first-section {
+}
+
+.div-background-white {
+    background-color: rgba(255, 255, 255, 1);
+    width: 50vw;
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: row;
+}
+
+.tuula {
+    background-image: url('assets/tuulaGreen.png');
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+.image-info-chair,
+.image-info-loveseat,
+.image-info-console,
+.image-info-sectional {
+    width: 50vw;
+    height: 50vh;
+    opacity: 0;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+    display: flex;
+}
+
+.image-info-chair {
+    background-color: rgba(255, 216, 236, 1);
+}
+
+.image-info-loveseat {
+    background-color: rgba(146, 194, 196, 1);
+}
+
+.image-info-sectional {
+    background-color: rgba(217, 228, 235, 1);
+}
+
+.image-info-console {
+    background-color: rgba(178,221,240, 1);
+}
+
+.div-background-white:hover .image-info-chair,
+.div-background-white:hover .image-info-loveseat,
+.div-background-white:hover .image-info-sectional,
+.div-background-white:hover .image-info-console {
+    opacity: .8;
+}
+
+.image-info-text {
+    margin: auto;
+}
+
+.tuulaLoveseat {
+    background-image: url('assets/tuulaLoveseat.png');
+}
+
+.palmsChair {
+    background-image: url('assets/palmsChair.png');
+}
+
+.palmsLoveseat {
+    background-image: url('assets/palmsLoveseat.png');
+}
+
+.sheaConsole {
+    background-image: url('assets/sheaConsole.png');
+}
+
+.sheaSectional {
+    background-image: url('assets/sheaSectional.png');
+}
+
+.product-type {
+    font-weight: 200;
+}
+
+.parallax {
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-image-info {
+    border: 1px solid red;
+    background: rgba(255, 255, 255, .8);
+    background-image: url('images/chicagoSofaZachEfron.jpg');
+
+}
+
+.parallax-image-info-p {
+    font-size: .8rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.parallax-image-info-p span {
+    display: block;
+    text-align: right;
+    text-transform: lowercase;
+    padding: .25rem 0;
+}
+
+.parallax-image-info-chicagoChairBlue {
+    margin: 3rem auto;
+    background-color: rgba(255, 255, 255, .8);
+    width: 80%;
+    padding: 0 2rem;
+    border-radius: .25rem;
+}
+
+.parallax-image-info {
+    margin: 2rem 3rem;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    left: 0;
+    top: 0;
+}
+
+.chicagoChairBlue-image {
+    background-size: 50%;
+    background-position: 90% 45%;
+    background-image: url('assets/chicagoChairBlue.png');
+
+}
+
+.commercial-image {
+    background-image: url('images/mitosiWorkPods.jpg');
+    /* background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        */
+}
+
+.parallax-image-info-chicagoChairBlue {
+    /*background-image: url('assets/chicagoChairBlue.png');*/
+}
+
+/* really great blue rgba(178,221,240) */
