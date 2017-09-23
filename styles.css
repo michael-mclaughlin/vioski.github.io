@@ -13,6 +13,14 @@ header {
     background-repeat: no-repeat;
     background-position: bottom center;
     background-attachment: fixed;
+}
+
+.header-picture-background {
+    display: flex;
+}
+
+nav {
+    position: absolute;
     padding: 2rem 3rem;
 }
 
@@ -29,13 +37,13 @@ a {
 .header-h1 {
     font-size: 3rem;
     margin: 0;
+    color: #333333;
 }
 
-h2 {
+.light-background-h2 {
     font-weight: 200;
-}
-
-.first-section {
+    margin: .25rem 0;
+    color: #333333;
 }
 
 .div-background-white {
@@ -60,7 +68,6 @@ h2 {
 .image-info-loveseat,
 .image-info-console,
 .image-info-sectional {
-    width: 50vw;
     height: 50vh;
     opacity: 0;
     -webkit-transition: .5s ease-out;
@@ -70,21 +77,43 @@ h2 {
     display: flex;
 }
 
-.image-info-chair {
-    background-color: rgba(255, 216, 236, 1);
+
+
+.history-about-text,
+.personalize-about-text {
+    width: 50vw;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+
+}
+.about-row {
+    padding: 2rem 3rem;
 }
 
-.image-info-loveseat {
-    background-color: rgba(146, 194, 196, 1);
+.history-about-text {
+    background-color: rgba(51, 51, 51, 1);
+    color: #f3f3f3;
+}
+.personalize-about-text {
+    color: #333333;
+}
+.image-info-chair {
+    background-color: rgba(255, 216, 236, 1);
+
+}
+
+.image-info-loveseat,
+.image-info-console  {
+    background-color: rgba(178, 221, 240, 1);
 }
 
 .image-info-sectional {
     background-color: rgba(217, 228, 235, 1);
 }
 
-.image-info-console {
-    background-color: rgba(178,221,240, 1);
-}
+
 
 .div-background-white:hover .image-info-chair,
 .div-background-white:hover .image-info-loveseat,
@@ -93,8 +122,18 @@ h2 {
     opacity: .8;
 }
 
+.dark-background-h2,
+.tag-line-text  {
+    font-weight: 100;
+    letter-spacing: 1.25px;
+}
+
 .image-info-text {
     margin: auto;
+}
+
+.image-info-text-lightgrey {
+    color: #f3f3f3;
 }
 
 .tuulaLoveseat {
@@ -113,11 +152,19 @@ h2 {
     background-image: url('assets/sheaConsole.png');
 }
 
+.aidenConsole {
+    background-image: url('assets/aidenConsole.png');
+}
+
 .sheaSectional {
     background-image: url('assets/sheaSectional.png');
 }
 
-.product-type {
+.coppiaLounge {
+    background-image: url('assets/coppiaLounge.png');
+}
+
+.product-type{
     font-weight: 200;
 }
 
@@ -153,6 +200,8 @@ h2 {
     width: 80%;
     padding: 0 2rem;
     border-radius: .25rem;
+
+    visibility: hidden;
 }
 
 .parallax-image-info {
@@ -171,16 +220,4 @@ h2 {
 
 }
 
-.commercial-image {
-    background-image: url('images/mitosiWorkPods.jpg');
-    /* background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        */
-}
 
-.parallax-image-info-chicagoChairBlue {
-    /*background-image: url('assets/chicagoChairBlue.png');*/
-}
-
-/* really great blue rgba(178,221,240) */
