@@ -81,7 +81,7 @@ a {
 
 .history-about-text,
 .personalize-about-text {
-    width: 50vw;
+    /*width: 50vw;*/
     -webkit-transition: .5s ease-out;
     -moz-transition: .5s ease-out;
     -o-transition: .5s ease-out;
@@ -89,13 +89,18 @@ a {
 
 }
 .about-row {
-    padding: 2rem 3rem;
+    /*padding: 2rem 3rem;*/
+    /*width: 50vw;*/
 }
 
 .history-about-text {
     background-color: rgba(51, 51, 51, 1);
     color: #f3f3f3;
+    width: 50vw;
+    box-sizing: border-box;
+    padding: 3em;
 }
+
 .personalize-about-text {
     color: #333333;
 }
@@ -113,8 +118,6 @@ a {
     background-color: rgba(217, 228, 235, 1);
 }
 
-
-
 .div-background-white:hover .image-info-chair,
 .div-background-white:hover .image-info-loveseat,
 .div-background-white:hover .image-info-sectional,
@@ -123,9 +126,14 @@ a {
 }
 
 .dark-background-h2,
-.tag-line-text  {
+.tag-line-text,
+.tag-line-text-h1{
     font-weight: 100;
     letter-spacing: 1.25px;
+}
+
+.tag-line-text-h1 {
+    font-size: 1.75rem;
 }
 
 .image-info-text {
@@ -134,6 +142,8 @@ a {
 
 .image-info-text-lightgrey {
     color: #f3f3f3;
+    text-align: right;
+    font-size: 2rem;
 }
 
 .tuulaLoveseat {
@@ -183,8 +193,12 @@ a {
 }
 
 .parallax-image-info-p {
-    font-size: .8rem;
+    font-size: 1rem;
     border-bottom: 1px solid #e5e5e5;
+}
+
+.dark-furniture-text {
+    border: none;
 }
 
 .parallax-image-info-p span {
@@ -195,13 +209,8 @@ a {
 }
 
 .parallax-image-info-chicagoChairBlue {
-    margin: 3rem auto;
     background-color: rgba(255, 255, 255, .8);
-    width: 80%;
-    padding: 0 2rem;
     border-radius: .25rem;
-
-    visibility: hidden;
 }
 
 .parallax-image-info {
@@ -214,10 +223,39 @@ a {
 }
 
 .chicagoChairBlue-image {
-    background-size: 50%;
-    background-position: 90% 45%;
+    background-size: contain;
+    background-position: 133% 222%;
     background-image: url('assets/chicagoChairBlue.png');
 
+}
+
+.foreground-image-chicago-parent {
+    display: flex;
+    width: 66.666666vw;
+    border: 1px solid red;
+}
+
+/*.foreground-image-chicago {
+    background-image: url('assets/chicagoChairBlue.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: row;
+    width: 33.333333vw;
+    padding: 2rem 2rem 2.5rem 2rem;
+}*/
+
+.chicago {
+    /* margin: auto; */
+    /*width: auto;*/
+}
+
+.about-description-h1-dark {
+    font-size: 2.25rem;
+    display: inline-block;
+    margin: 0 .5rem 0 0;
+
+    /*padding: 0 0 2rem 0;*/
 }
 
 
