@@ -67,7 +67,7 @@ a {
 .image-info-chair,
 .image-info-loveseat,
 .image-info-console,
-.image-info-sectional {
+.image-info-sectional{
     height: 50vh;
     opacity: 0;
     -webkit-transition: .5s ease-out;
@@ -77,7 +77,15 @@ a {
     display: flex;
 }
 
-
+.furniture-description {
+    opacity: 0;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+    width: 50vw;
+    display: flex;
+}
 
 .history-about-text,
 .personalize-about-text {
@@ -106,7 +114,6 @@ a {
 }
 .image-info-chair {
     background-color: rgba(255, 216, 236, 1);
-
 }
 
 .image-info-loveseat,
@@ -118,10 +125,15 @@ a {
     background-color: rgba(217, 228, 235, 1);
 }
 
+.furniture-description {
+     background-color: rgba(217, 228, 235, 1);
+}
+
 .div-background-white:hover .image-info-chair,
 .div-background-white:hover .image-info-loveseat,
 .div-background-white:hover .image-info-sectional,
-.div-background-white:hover .image-info-console {
+.div-background-white:hover .image-info-console,
+.furniture-description-container:hover .furniture-description {
     opacity: .8;
 }
 
@@ -257,5 +269,11 @@ a {
 
     /*padding: 0 0 2rem 0;*/
 }
+
+.furniture-description-container {
+    display: flex;
+    width: 50vw;
+}
+
 
 
