@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32fbe529-9fe6-4c86-a9f1-825ac1ab3591" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/angelesPinkChairFlipped.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/miloOrangeFlipped.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/angelesPinkChair.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/brentonTableRectangular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/miloOrange.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/2012024 Brenton Table Rectangular shadow.png" afterPath="$PROJECT_DIR$/assets/brentonTableRectangularShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG 2222 Aiden Console shadow.png" afterPath="$PROJECT_DIR$/assets/aidenConsoleShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_1023 Tuulla green shadow.png" afterPath="$PROJECT_DIR$/assets/tuulaGreenShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_1179 Angeles Chair pink shadow.png" afterPath="$PROJECT_DIR$/assets/angelesChairPinkShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_1638 Chicago Sofa gray shadow.png" afterPath="$PROJECT_DIR$/assets/chicagoSofaShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_1638 Chicago Sofa green shadow.png" afterPath="$PROJECT_DIR$/assets/chicagoSofaGreenShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_2049 Shea Sectional shadow.png" afterPath="$PROJECT_DIR$/assets/sheaSectionalShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_2217 Shea Console shadow.png" afterPath="$PROJECT_DIR$/assets/sheaConsoleShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_2574 Sotto Table  shadow.png" afterPath="$PROJECT_DIR$/assets/sottoTableShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_3294 William gray shadow.png" afterPath="$PROJECT_DIR$/assets/williamShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_3644 Milo orange shadow.png" afterPath="$PROJECT_DIR$/assets/miloShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_5073 Chicago Chair blue shadow.png" afterPath="$PROJECT_DIR$/assets/chicagoChairBlueShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/IMG_8317 Palms Loveseat gray shadow.png" afterPath="$PROJECT_DIR$/assets/palmsLoveseatShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/Metro Bench black leather shadow.png" afterPath="$PROJECT_DIR$/assets/metroBenchBlackLeatherShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/_MG_2878 Nicholas Sectional shadow.png" afterPath="$PROJECT_DIR$/assets/nicholasSectionalShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/_MG_4639 Palms I Chair Ottoman green shadow.png" afterPath="$PROJECT_DIR$/assets/palmsChairOttomanGreenShadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/_MG_5439 Tuulla Loveseat shadow.png" afterPath="$PROJECT_DIR$/assets/tuulaLoveseatShadow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tuulaGreen.png" afterPath="$PROJECT_DIR$/assets/tuulaGreen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
-    </list>
+    <list default="true" id="32fbe529-9fe6-4c86-a9f1-825ac1ab3591" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +18,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1303">
+            <state relative-caret-position="1830">
               <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
               <folding />
             </state>
@@ -70,7 +42,7 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
+            <state relative-caret-position="4050">
               <caret line="270" column="31" lean-forward="false" selection-start-line="270" selection-start-column="31" selection-end-line="270" selection-end-column="31" />
               <folding />
             </state>
@@ -111,8 +83,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1039" />
-    <option name="y" value="52" />
+    <option name="x" value="-1076" />
+    <option name="y" value="50" />
     <option name="width" value="1056" />
     <option name="height" value="1829" />
   </component>
@@ -131,9 +103,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,7 +385,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1039" y="52" width="1056" height="1829" extended-state="0" />
+    <frame x="-1076" y="50" width="1056" height="1829" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -424,19 +396,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09960552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10157791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -656,21 +628,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/angelesPinkChair.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/brentonTableRectangular.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/miloOrange.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/angelesPinkChair.png" />
+    <entry file="file://$PROJECT_DIR$/assets/brentonTableRectangular.png" />
+    <entry file="file://$PROJECT_DIR$/assets/miloOrange.png" />
     <entry file="file://$PROJECT_DIR$/assets/Metro Bench black leather.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -783,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
+        <state relative-caret-position="4050">
           <caret line="270" column="31" lean-forward="false" selection-start-line="270" selection-start-column="31" selection-end-line="270" selection-end-column="31" />
           <folding />
         </state>
@@ -791,7 +751,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1303">
+        <state relative-caret-position="1830">
           <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
           <folding />
         </state>
