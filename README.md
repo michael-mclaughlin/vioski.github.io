@@ -5,3 +5,4 @@ The code is a working, first draft and hasn't been linted or fixed yet for dupli
 This is a hand coded preliminary mock that is in the process of being finished.
 
 Mobile responsive and adaptive website
+
