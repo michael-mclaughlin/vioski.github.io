@@ -26,7 +26,7 @@ nav {
 
 section{
     display: flex;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 a {
@@ -283,6 +283,19 @@ a {
     /*width: auto;*/
 }
 
+.about-description-h1 {
+     display: block;
+        width: 100%;
+        color: #ffffff;
+        font-size: 2.5rem;
+        margin: 1rem 2rem;
+        border-bottom: 5px solid rgba(255,255,255, 0.5);
+        padding: .5rem;
+
+
+
+}
+
 .about-description-h1-dark {
     font-size: 2.25rem;
     display: inline-block;
@@ -296,5 +309,22 @@ a {
     width: 50vw;
 }
 
+.location-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgba(146,194,196, 1);
+}
 
+.showroom-address {
+    /*border: 1px solid red;*/
+    flex-grow: 1;
+    margin: 1rem;
+    padding: 1rem;
+    width: auto;
 
+}
+
+address {
+   color: rgba(255, 255, 255, 1);
+}
