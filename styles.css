@@ -20,8 +20,9 @@ header {
 }
 
 nav {
-    position: absolute;
     padding: 2rem 3rem;
+    width: 100%;
+    
 }
 
 section{
@@ -150,10 +151,11 @@ a {
 
 .image-info-text, .furniture-description-text {
     margin: auto;
+    text-decoration: underline;
 }
 
 .furniture-description-text-a {
-    padding: 4rem;
+    padding: 10vh;
 }
 
 .image-info-text-lightgrey {
@@ -217,16 +219,15 @@ a {
     background-attachment: fixed;
 }
 
-.parallax-image-info {
-    border: 1px solid red;
-    background: rgba(255, 255, 255, .8);
+.parallax-image-background zach-efron{
+   /* border: 1px solid red;
+    background: rgba(255, 255, 255, .8); */
     background-image: url('images/chicagoSofaZachEfron.jpg');
-
 }
 
 .parallax-image-info-p {
     font-size: 1rem;
-    border-bottom: 1px solid #e5e5e5;
+   /* border-bottom: 1px solid #e5e5e5;*/
 }
 
 .dark-furniture-text {
@@ -275,7 +276,7 @@ a {
 .foreground-image-chicago-parent {
     display: flex;
     width: 66.666666vw;
-    border: 1px solid red;
+  /*  border: 1px solid red; */
 }
 
 .chicago {
@@ -291,17 +292,12 @@ a {
         margin: 1rem 2rem;
         border-bottom: 5px solid rgba(255,255,255, 0.5);
         padding: .5rem;
-
-
-
 }
 
 .about-description-h1-dark {
     font-size: 2.25rem;
     display: inline-block;
     margin: 0 .5rem 0 0;
-
-    /*padding: 0 0 2rem 0;*/
 }
 
 .furniture-description-container {
@@ -327,4 +323,14 @@ a {
 
 address {
    color: rgba(255, 255, 255, 1);
+}
+
+.product-nav {
+    list-style-type: none;
+    border: 1px solid blue;
+    padding: unset;
+}
+
+.product-nav-listItem {
+    border: 1px solid red;
 }
