@@ -15,18 +15,31 @@ header {
     background-attachment: fixed;
 }
 
+/* .parallax-commercial-image {
+    height: 90vh;
+}
+
+.commercial-image-background {
+    background-image: url('images/commercialHyundai.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+*/
 .header-picture-background {
     display: flex;
 }
 
 nav {
-    position: absolute;
     padding: 2rem 3rem;
+    width: 100%;
+    
 }
 
 section{
     display: flex;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 a {
@@ -150,10 +163,11 @@ a {
 
 .image-info-text, .furniture-description-text {
     margin: auto;
+    text-decoration: underline;
 }
 
 .furniture-description-text-a {
-    padding: 4rem;
+    padding: 10vh;
 }
 
 .image-info-text-lightgrey {
@@ -217,16 +231,15 @@ a {
     background-attachment: fixed;
 }
 
-.parallax-image-info {
-    border: 1px solid red;
-    background: rgba(255, 255, 255, .8);
+.parallax-image-background zach-efron{
+   /* border: 1px solid red;
+    background: rgba(255, 255, 255, .8); */
     background-image: url('images/chicagoSofaZachEfron.jpg');
-
 }
 
 .parallax-image-info-p {
     font-size: 1rem;
-    border-bottom: 1px solid #e5e5e5;
+   /* border-bottom: 1px solid #e5e5e5;*/
 }
 
 .dark-furniture-text {
@@ -262,20 +275,26 @@ a {
 
 .milo-image {
     background-size: contain;
-        background-position: -15% center;
-        background-image: url('assets/miloOrangeFlipped.png');
+    background-position: -15% center;
+    background-image: url('assets/miloOrangeFlipped.png');
 }
 
 .tuula-image {
     background-size: contain;
-        background-position: 128% center;
-        background-image: url('assets/tuulaGreen.png');
+    background-position: 128% center;
+    background-image: url('assets/tuulaGreen.png');
+}
+
+.chicago-Blue-left-image {
+    background-size: contain;
+    background-position: -15% center;
+    background-image: url('assets/chicagoChairBlueLeft.png');
 }
 
 .foreground-image-chicago-parent {
     display: flex;
     width: 66.666666vw;
-    border: 1px solid red;
+  /*  border: 1px solid red; */
 }
 
 .chicago {
@@ -283,12 +302,21 @@ a {
     /*width: auto;*/
 }
 
+.about-description-h1 {
+     display: block;
+     width: 100%;
+     color: #ffffff;
+     font-size: 2.5rem;
+     margin: 1rem 2rem;
+     border-bottom: 1px solid rgba(255,255,255, 1);
+     padding: .5rem;
+     text-align: center;
+}
+
 .about-description-h1-dark {
     font-size: 2.25rem;
     display: inline-block;
     margin: 0 .5rem 0 0;
-
-    /*padding: 0 0 2rem 0;*/
 }
 
 .furniture-description-container {
@@ -296,5 +324,52 @@ a {
     width: 50vw;
 }
 
+.location-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgba(146,194,196, 1);
+}
 
+.showroom-address {
+    /*border: 1px solid red;*/
+    flex-grow: 1;
+    margin: 1rem;
+    padding: 1rem;
+    width: auto;
 
+}
+
+address {
+    color: rgba(255, 255, 255, 1);
+}
+
+.product-nav {
+    list-style-type: none;
+    border: 1px solid blue;
+    padding: unset;
+}
+
+.product-nav-listItem {
+    border: 1px solid red;
+}
+
+.showroom-location {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.showroom-name {
+     font-weight: 400;
+     font-size: 1.25rem;
+     font-style: normal;
+}
+
+.showroom-street,
+.showroom-area,
+.showroom-telephone,
+.showroom-fax,
+.showroom-email {
+    font-weight: 100;
+}
