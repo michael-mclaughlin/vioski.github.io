@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32fbe529-9fe6-4c86-a9f1-825ac1ab3591" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/chicagoChairBlueLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cabinet.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairCommercialBackdrop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chueyCraftmanship.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/commercialHyundai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/couchAngleGrey.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/livingroomBeige.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
-    </list>
+    <list default="true" id="32fbe529-9fe6-4c86-a9f1-825ac1ab3591" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
