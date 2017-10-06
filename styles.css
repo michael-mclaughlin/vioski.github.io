@@ -15,6 +15,18 @@ header {
     background-attachment: fixed;
 }
 
+/* .parallax-commercial-image {
+    height: 90vh;
+}
+
+.commercial-image-background {
+    background-image: url('images/commercialHyundai.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+*/
 .header-picture-background {
     display: flex;
 }
@@ -263,14 +275,20 @@ a {
 
 .milo-image {
     background-size: contain;
-        background-position: -15% center;
-        background-image: url('assets/miloOrangeFlipped.png');
+    background-position: -15% center;
+    background-image: url('assets/miloOrangeFlipped.png');
 }
 
 .tuula-image {
     background-size: contain;
-        background-position: 128% center;
-        background-image: url('assets/tuulaGreen.png');
+    background-position: 128% center;
+    background-image: url('assets/tuulaGreen.png');
+}
+
+.chicago-Blue-left-image {
+    background-size: contain;
+    background-position: -15% center;
+    background-image: url('assets/chicagoChairBlueLeft.png');
 }
 
 .foreground-image-chicago-parent {
@@ -286,12 +304,13 @@ a {
 
 .about-description-h1 {
      display: block;
-        width: 100%;
-        color: #ffffff;
-        font-size: 2.5rem;
-        margin: 1rem 2rem;
-        border-bottom: 5px solid rgba(255,255,255, 0.5);
-        padding: .5rem;
+     width: 100%;
+     color: #ffffff;
+     font-size: 2.5rem;
+     margin: 1rem 2rem;
+     border-bottom: 1px solid rgba(255,255,255, 1);
+     padding: .5rem;
+     text-align: center;
 }
 
 .about-description-h1-dark {
@@ -322,7 +341,7 @@ a {
 }
 
 address {
-   color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 .product-nav {
@@ -333,4 +352,24 @@ address {
 
 .product-nav-listItem {
     border: 1px solid red;
+}
+
+.showroom-location {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.showroom-name {
+     font-weight: 400;
+     font-size: 1.25rem;
+     font-style: normal;
+}
+
+.showroom-street,
+.showroom-area,
+.showroom-telephone,
+.showroom-fax,
+.showroom-email {
+    font-weight: 100;
 }
