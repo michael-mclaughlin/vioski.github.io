@@ -1,6 +1,5 @@
 $(document).ready(function(){
     dropDownUl('product-nav-parent-listItem-anchor');
-
 });
 
 var dropDownUl = function (className){
@@ -15,4 +14,4 @@ var dropDownUl = function (className){
                 $(this).next('ul').slideUp('fast');
             };
     });
-}
+};
