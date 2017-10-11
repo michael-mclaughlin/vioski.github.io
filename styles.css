@@ -11,7 +11,7 @@ header {
     background-image: url('assets/fratelliGrayShadow.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    /*background-position: bottom center;*/
     background-attachment: fixed;
 }
 
@@ -22,7 +22,7 @@ header {
 nav {
     padding: 2rem 3rem;
     width: 100%;
-    
+    height: fit-content;
 }
 
 section{
@@ -32,6 +32,7 @@ section{
 a {
     text-decoration: none;
     color: #000000;
+    cursor: pointer;
 }
 
 .header-h1 {
@@ -330,7 +331,6 @@ a {
 }
 
 .showroom-address {
-    /*border: 1px solid red;*/
     flex-grow: 1;
     margin: 1rem;
     padding: 1rem;
@@ -348,13 +348,45 @@ address {
     float: right;
 }
 
-.product-nav-listItem {
+.product-nav-parent-listItem {
+    display: inline-block;
 
 }
 
-.header-nav-links {
+.product-nav-parent-listItem-anchor {
+    display: block;
     padding: .5rem;
-    border: 1px solid red;
+    border-bottom: 2px solid rgba(255, 216, 236, 0);
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+
+.product-nav-parent-listItem-anchor:hover {
+    border-bottom: 2px solid rgba(240,90,143, 1);
+    color: rgba(240,90,143, 1);
+}
+
+.activeUl {
+     border-bottom: 2px solid rgba(240,90,143, 1);
+        color: rgba(240,90,143, 1);
+}
+
+.product-nav-listItem {
+    list-style-type: none;
+}
+
+.nav-dropdown {
+    padding: inherit;
+    position: absolute;
+    display: none;
+}
+
+.header-nav-links {
+    padding: .5rem 1.5rem .5rem;
+    display: block;
 }
 
 .showroom-location {
