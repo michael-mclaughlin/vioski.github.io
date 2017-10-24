@@ -15,3 +15,16 @@ var dropDownUl = function (className){
             };
     });
 };
+
+
+
+var arrayOfHeroImages = function(){
+
+    var imageArray = [];
+    var image = $('<img>');
+    var hero = $('header');
+
+    imageArray.push(totalImage);
+    hero.append(imageArray);
+
+}
