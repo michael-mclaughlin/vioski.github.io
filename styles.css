@@ -36,8 +36,9 @@ a {
 }
 
 .header-h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     margin: 0;
+    font-weight: 400;
     color: #333333;
     width: fit-content;
 }
@@ -82,7 +83,7 @@ a {
 
 .image-info-commercial {
     margin: auto;
-    padding: 22vh;
+    padding: 20vh;
     opacity: 0;
     -webkit-transition: .5s ease-out;
     -moz-transition: .5s ease-out;
@@ -118,7 +119,7 @@ a {
     color: #f3f3f3;
     width: 50vw;
     box-sizing: border-box;
-    padding: 3em;
+    padding: 6rem;
 }
 
 .personalize-about-text {
@@ -163,7 +164,7 @@ a {
 }
 
 .tag-line-text-h1 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
 
 .image-info-text, .furniture-description-text {
@@ -172,7 +173,7 @@ a {
 }
 
 .furniture-description-text-a {
-    padding: 10vh;
+    padding: 20vh 25vh;
 }
 
 .image-info-text-lightgrey {
@@ -325,21 +326,36 @@ a {
 
 .location-section {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 1rem;
     background-color: rgba(146,194,196, 1);
 }
 
 .showroom-address {
     flex-grow: 1;
-    margin: 1rem;
-    padding: 1rem;
-    width: auto;
+    margin: 1vw;
+    padding: 1vw;
+    width: 14rem;
+    height: 16rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+.showroom-location {}
+
+.showroom-name,
+.showroom-street,
+.showroom-area,
+.showroom-telephone,
+.showroom-email {
+    margin: .5rem 0;
 }
 
 address {
     color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    margin: 0 auto;
 }
 
 .product-nav {
@@ -363,9 +379,27 @@ address {
     transition: .5s ease-out;
 }
 
-
 .product-nav-parent-listItem-anchor:hover {
     border-bottom: 2px solid rgba(240,90,143, 1);
+    color: rgba(240,90,143, 1);
+}
+
+.nav-dropdown {
+    padding: inherit;
+    position: absolute;
+    display: none;
+}
+
+.header-nav-links {
+    padding: .5rem 1.5rem .5rem;
+    display: block;
+    -webkit-transition: .25s ease-out;
+    -moz-transition: .25s ease-out;
+    -o-transition: .25s ease-out;
+    transition: .25s ease-out;
+}
+
+.header-nav-links:hover {
     color: rgba(240,90,143, 1);
 }
 
@@ -378,25 +412,14 @@ address {
     list-style-type: none;
 }
 
-.nav-dropdown {
-    padding: inherit;
-    position: absolute;
-    display: none;
-}
-
-.header-nav-links {
-    padding: .5rem 1.5rem .5rem;
-    display: block;
-}
-
 .showroom-location {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.5rem;
     font-style: normal;
 }
 
 .showroom-name {
-     font-weight: 400;
+     font-weight: 200;
      font-size: 1.25rem;
      font-style: normal;
 }
