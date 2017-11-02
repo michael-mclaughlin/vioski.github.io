@@ -317,6 +317,7 @@ a {
     font-size: 2.25rem;
     display: inline-block;
     margin: 0 .5rem 0 0;
+    font-weight: 400;
 }
 
 .furniture-description-container {
@@ -328,18 +329,21 @@ a {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 1rem;
-    background-color: rgba(146,194,196, 1);
+    justify-content: space-evenly;
+    /*background-color: rgba(146,194,196, 1);*/
+    background-color: #73afb1;
 }
 
 .showroom-address {
-    flex-grow: 1;
-    margin: 1vw;
+    /*flex-grow: 1;*/
+    /*display: inline-block;*/
+    margin: 2vw;
     padding: 1vw;
-    width: 14rem;
-    height: 16rem;
+    /*width: 14rem;*/
+   /* height: 16rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly;*/
 }
 
 .showroom-location {}
@@ -356,6 +360,28 @@ address {
     color: rgba(255, 255, 255, 1);
     font-style: normal;
     margin: 0 auto;
+    background-color: #94c2c3;
+    width: 17rem;
+    height: 18rem;
+    padding: 2rem;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255, .3);
+}
+
+.showroom-email-a {
+    color: #333333;
+    font-weight: 300;
+    border-bottom: 2px solid rgba(240,90,143, 0);
+    -webkit-transition: .5s ease-out;
+        -moz-transition: .5s ease-out;
+        -o-transition: .5s ease-out;
+        transition: .5s ease-out;
+
+}
+
+.showroom-email-a:hover {
+    color: rgba(240,90,143, 1);
+    border-bottom: 2px solid rgba(240,90,143, 1);
 }
 
 .product-nav {
