@@ -11,7 +11,6 @@ var dropDownUl = function (className){
         $(this).toggleClass('activeUl');
             if($(this).hasClass('activeUl')){
                 $(this).next('ul').slideDown('fast');
-                $(this).siblings(className).removeClass('activeUl');
             }else{
                 $(this).next('ul').slideUp('fast');
             };
@@ -20,7 +19,7 @@ var dropDownUl = function (className){
 
 var scrollToId = function(){
      // handle links with @href started with '#' only
-    $(document).on('click', 'a[href^="#"]', function(e) {
+     $(document).on('click', 'a[href^="#"]', function(e) {
          var id = $(this).attr('href');
          var $id = $(id);
          if ($id.length === 0) {
@@ -29,9 +28,10 @@ var scrollToId = function(){
          e.preventDefault();
          var pos = $(id).offset().top;
          var totalPos = pos;
-         $('body, html').animate({scrollTop: totalPos});
-    });
+     $('body, html').animate({scrollTop: totalPos});
+     });
 };
+
 
 var arrayOfHeroImages = function(){
 
