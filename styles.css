@@ -43,6 +43,17 @@ a {
     width: fit-content;
 }
 
+.header-h1-anchor {
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+.header-h1-anchor:hover {
+    color: rgba(240,90,143, 1);
+}
+
 .light-background-h2 {
     font-weight: 200;
     margin: .25rem 0;
@@ -140,7 +151,8 @@ a {
 }
 
 .furniture-description-text {
-     background-color: rgba(217, 228, 235, 1);
+    margin: 2rem auto;
+    background-color: rgba(217, 228, 235, 1);
 }
 
 .div-background-white:hover .image-info-chair,
@@ -150,10 +162,6 @@ a {
 .furniture-description-container:hover .furniture-description-text,
 .commercial-image-background:hover .image-info-commercial {
     opacity: .8;
-}
-
- {
-
 }
 
 .dark-background-h2,
@@ -167,8 +175,11 @@ a {
     font-size: 1.25rem;
 }
 
-.image-info-text, .furniture-description-text {
+.image-info-text {
     margin: auto;
+}
+
+.image-info-text, .furniture-description-text {
     text-decoration: underline;
 }
 
@@ -302,15 +313,19 @@ a {
     /*width: auto;*/
 }
 
-.about-description-h1 {
+.about-description-h1, .contact-description-h1 {
      display: block;
-     width: 100%;
      color: #ffffff;
      font-size: 2.5rem;
+     font-weight: 400;
      margin: 1rem 2rem;
      border-bottom: 1px solid rgba(255,255,255, 1);
      padding: .5rem;
      text-align: center;
+}
+
+.about-description-h1 {
+    width: 100%;
 }
 
 .about-description-h1-dark {
@@ -465,4 +480,25 @@ address {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+}
+
+.contact-section {
+    display: block;
+}
+
+.contact-form-container {
+    display: flex;
+    margin: 3vw auto;
+    border: 1px solid green;
+    width: 80vw;
+}
+
+.contact-form {
+    border: 1px solid red;
+    margin: auto;
+}
+
+.contact-label {
+    display: block;
+    text-align:left;
 }
