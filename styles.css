@@ -710,10 +710,12 @@ input::placeholder {
 }
 
 @media (max-width: 750px) {
-    nav {
+     nav {
         padding: 0 1rem;
-    }
+     }
+}
 
+@media (max-width: 750px) and (orientation: portrait) {
     header {
         background-position: center;
         height: 65vh;
@@ -722,18 +724,16 @@ input::placeholder {
     .history-about-text {
         padding: 2rem;
     }
+}
 
-    /* nested for height */
-    @media (max-height: 420px) {
-        header {
-            background-position: bottom;
-            height: 100vh;
-        }
+@media (max-height: 450px) and (orientation: landscape) {
+    header {
+        background-position: bottom center;
+        height: 100vh;
     }
 }
 
 @media (max-width: 700px) {
-
     .history-about-text {
         margin-top: 50vh;
         width: 100%;
