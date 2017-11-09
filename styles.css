@@ -710,8 +710,25 @@ input::placeholder {
 }
 
 @media (max-width: 750px) {
+    nav {
+        padding: 0 1rem;
+    }
+
+    header {
+        background-position: center;
+        height: 65vh;
+    }
+
     .history-about-text {
         padding: 2rem;
+    }
+
+    /* nested for height */
+    @media (max-height: 420px) {
+        header {
+            background-position: bottom;
+            height: 100vh;
+        }
     }
 }
 
