@@ -8,10 +8,10 @@ body{
 
 header {
     height: 100vh;
-    background-image: url('assets/fratelliGrayShadow.png');
+    background-image: url('assets/fratelliGrayShadowCropped.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    /*background-position: bottom center;*/
+    background-position: bottom center;
     background-attachment: fixed;
 }
 
@@ -721,6 +721,7 @@ input::placeholder {
         margin-top: 50vh;
         width: 100%;
         position: relative;
+        padding: 10vw;
     }
 
     .furniture-description-container {
