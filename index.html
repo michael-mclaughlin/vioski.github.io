@@ -30,6 +30,12 @@
                 </ul>
             </li>
             <li class="product-nav-parent-listItem">
+                <a class="product-nav-parent-listItem-anchor anchor" href="#location-section">Commercial</a>
+            </li>
+            <li class="product-nav-parent-listItem">
+                <a class="product-nav-parent-listItem-anchor anchor" href="#location-section">Residential</a>
+            </li>
+            <li class="product-nav-parent-listItem">
                 <a class="product-nav-parent-listItem-anchor anchor" href="#">Partnerships</a>
             </li>
             <li class="product-nav-parent-listItem">
@@ -333,33 +339,68 @@
     <div id="contact-form-container" class="contact-form-container">
     <table id="contact-form" class="contact-form">
         <tr>
-            <td>
-                <label for="name-field" id="name-field-label" class="contact-label name-field-label">Name</label>
+            <td><h1 id="contact-header1" class="contact-header contact-form-header1">What type of business are you?</h1></td>
+        </tr>
+        <tr>
+            <td class="contact-td checkbox-container">
+                <!--<h1 id="contact-header1" class="contact-header contact-form-header1">What are you?</h1>-->
+                <label class="control control--checkbox">Commercial Representative
+                    <input type="checkbox" name="business-type" value="commercial-representative" checked="checked"/>
+                    <div class="control__indicator"></div>
+                </label>
+                <label class="control control--checkbox">Commercial Dealer
+                    <input type="checkbox" name="business-type" value="commercial-dealer"/>
+                    <div class="control__indicator"></div>
+                </label>
+                <label class="control control--checkbox">Architectural and Design Firm
+                    <input type="checkbox" name="business-type" value="architectural-design-firm" />
+                    <div class="control__indicator"></div>
+                </label>
+                <label class="control control--checkbox">End Client
+                    <input type="checkbox" name="business-type" value="end-client"/>
+                    <div class="control__indicator"></div>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td class="contact-td input-container">
+                <label for="name-field" id="name-field-label" class="contact-label name-field-label">What's your name?</label>
                 <input type="text" name="name" id="name-field" class="input-field name-field">
             </td>
         </tr>
         <tr>
-            <td>
-                <label for="email-field" id="email-field-label" class="contact-label email-field-label">Email</label>
+            <td class="contact-td input-container">
+                <label for="company-name-field" id="company-name-field-label" class="contact-label company-name-field-label">What's your company named?</label>
+                <input type="text" name="company-name" id="company-name-field" class="input-field company-name-field">
+            </td>
+        </tr>
+        <tr>
+            <td class="contact-td input-container">
+                <label for="email-field" id="email-field-label" class="contact-label email-field-label">What's your email?</label>
                 <input type="email" name="email" id="email-field" class="input-field email-field">
             </td>
         </tr>
         <tr>
-            <td>
-                <label for="phone-number-field" id="phone-number-field-label" class="contact-label phone-number-field-label">Phone Number</label>
-                <input type="number" name="phone-number" id="phone-number-field" class="input-field phone-number-field">
+            <td class="contact-td input-container">
+                <label for="phone-number-field" id="phone-number-field-label" class="contact-label phone-number-field-label">What's your phone number?</label>
+                <input type="tel" name="phone-number" id="phone-number-field" class="input-field phone-number-field" placeholder="xxx-xxx-xxxx">
             </td>
         </tr>
         <tr>
-            <td>
-                <label for="subject-field" id="subject-field-label" class="contact-label subject-field-label">Subject</label>
+            <td class="contact-td input-container">
+                <label for="subject-field" id="subject-field-label" class="contact-label subject-field-label">What would you like to talk about?</label>
                 <input type="text" name="subject" id="subject-field" class="input-field subject-field">
             </td>
         </tr>
         <tr>
-            <td>
-                <label for="message-field" id="message-field-label" class="contact-label message-field-label">Message</label>
+            <td class="contact-td input-container">
+                <label for="message-field" id="message-field-label" class="contact-label message-field-label">Leave some details and we'll get back to you soon.</label>
                 <textarea id="message-field" class="input-field message-field"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" name="submit-form" id="submit-form-button" class="submit-form-button" value="Submit" placeholder="xxx-xxx-xxxx">
             </td>
         </tr>
     </table>

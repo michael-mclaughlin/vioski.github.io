@@ -33,6 +33,7 @@ a {
     text-decoration: none;
     color: #000000;
     cursor: pointer;
+    outline: none;
 }
 
 .header-h1 {
@@ -151,7 +152,10 @@ a {
 }
 
 .furniture-description-text {
-    margin: 2rem auto;
+    /*margin: 2rem auto;*/
+    width: 100%;
+    height: 100%;
+    margin: 0;
     background-color: rgba(217, 228, 235, 1);
 }
 
@@ -184,7 +188,8 @@ a {
 }
 
 .furniture-description-text-a {
-    padding: 20vh 25vh;
+    margin: auto;
+    padding: 30%;
 }
 
 .image-info-text-lightgrey {
@@ -319,9 +324,15 @@ a {
      font-size: 2.5rem;
      font-weight: 400;
      margin: 1rem 2rem;
-     border-bottom: 1px solid rgba(255,255,255, 1);
+    /* border-bottom: 1px solid rgba(255,255,255, 1); */
      padding: .5rem;
      text-align: center;
+}
+
+.contact-description-h1 {
+    color: #76afb0;
+    padding: 1rem;
+   /* border-bottom: 1px solid rgba(118,175,176, 1); */
 }
 
 .about-description-h1 {
@@ -343,7 +354,7 @@ a {
 .location-section {
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 1rem;
+    padding: 1rem 1rem 2.25rem 1rem;
     justify-content: space-evenly;
     /*background-color: rgba(146,194,196, 1);*/
     background-color: #73afb1;
@@ -352,8 +363,8 @@ a {
 .showroom-address {
     /*flex-grow: 1;*/
     /*display: inline-block;*/
-    margin: 2vw;
-    padding: 1vw;
+    margin: 1vw;
+    /*padding: 1vw;*/
     /*width: 14rem;*/
    /* height: 16rem;
     display: flex;
@@ -376,9 +387,10 @@ address {
     font-style: normal;
     margin: 0 auto;
     background-color: #94c2c3;
-    width: 17rem;
-    height: 18rem;
-    padding: 2rem;
+    min-width: 16.5rem;
+    max-width: 19rem;
+    height: 16rem;
+    padding: 1rem;
     border-radius: 4px;
     border: 1px solid rgba(255,255,255, .3);
 }
@@ -457,6 +469,7 @@ address {
     font-weight: 400;
     font-size: 1.5rem;
     font-style: normal;
+    margin: .75rem 0;
 }
 
 .showroom-name {
@@ -483,22 +496,236 @@ address {
 }
 
 .contact-section {
-    display: block;
+    flex-direction: column;
 }
 
 .contact-form-container {
     display: flex;
-    margin: 3vw auto;
-    border: 1px solid green;
-    width: 80vw;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 77vw;
+    background-color: #fff;
+    padding: 1.5rem;
 }
 
 .contact-form {
-    border: 1px solid red;
     margin: auto;
+    width: 100%;
 }
 
 .contact-label {
     display: block;
     text-align:left;
 }
+
+/* Contact form */
+
+.contact-header, .contact-label {
+    font-weight: 300;
+    color: #999999;
+    font-size: 1.25rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    border-bottom: 1px solid #e6e6e6;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 2px;
+    font-size: 1.25rem;
+    padding: .5rem 1rem;
+    outline: none;
+    font-weight: 300;
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    margin: 1rem 0;
+    color: #76afb0;
+}
+
+textarea {
+    height: 14rem;
+    resize: none;
+    border: 1px solid #e6e6e6;
+}
+
+input[type=radio] {
+    display: block;
+    float: left;
+}
+
+.submit-form-button {
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: rgba(118, 175, 176, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: right;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+.submit-form-button:hover {
+    background-color: rgba(240, 90, 143, 1);
+}
+
+input::placeholder {
+    color: #e5e5e5;
+}
+
+.checkbox-container {
+    padding: .5rem 1rem 1.25rem;
+}
+
+.control {
+	font-size: 1rem;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.control__indicator {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #e6e6e6;
+}
+
+.control--radio .control__indicator {
+	border-radius: 50%;
+}
+
+/* Hover and focus states */
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+	background: #ccc;
+}
+
+/* Checked state */
+.control input:checked ~ .control__indicator {
+	background: #76afb0;
+}
+
+/* Hover state whilst checked */
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+	background: #0e647d;
+}
+
+/* Disabled state */
+.control input:disabled ~ .control__indicator {
+	pointer-events: none;
+	opacity: .6;
+	background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox .control__indicator:after {
+	top: 4px;
+	left: 8px;
+	width: 3px;
+	height: 8px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+}
+
+/* Disabled tick colour */
+.control--checkbox input:disabled ~ .control__indicator:after {
+	border-color: #7b7b7b;
+}
+
+/* Radio button inner circle */
+.control--radio .control__indicator:after {
+	top: 7px;
+	left: 7px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #fff;
+}
+
+/* Disabled circle colour */
+.control--radio input:disabled ~ .control__indicator:after {
+	background: #7b7b7b;
+}
+/* end contact form */
+
+
+/* mobile adaptive sizes */
+@media (max-width: 900px) {
+    .history-about-text {
+        padding: 4rem;
+    }
+
+    .furniture-description-text-a {
+        padding: 25%;
+    }
+
+    .chicagoChairBlue-image {
+        background-size: 71%;
+        background-position: center right;
+    }
+
+    .milo-image {
+        background-size: 85%;
+        background-position: left center;
+    }
+
+    .tuula-image {
+        background-size: 60%;
+        background-position: right center;
+
+    }
+}
+
+@media (max-width: 750px) {
+    .history-about-text {
+        padding: 2rem;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .div-background-white {
+        height: 40vh;
+    }
+
+    .image-info-chair,
+    .image-info-loveseat,
+    .image-info-console,
+    .image-info-sectional {
+        height: 40vh;
+    }
+}
+/* end mobile adaptive sizes */
