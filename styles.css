@@ -727,5 +727,16 @@ input::placeholder {
     .image-info-sectional {
         height: 40vh;
     }
+
+    .history-about-text {
+        margin-top: 50vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .furniture-description-container {
+        position: absolute;
+        width: 100%;
+    }
 }
 /* end mobile adaptive sizes */
