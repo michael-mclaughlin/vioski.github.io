@@ -709,7 +709,7 @@ input::placeholder {
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 750px), screen and (orientation: landscape) {
      nav {
         padding: 0 1rem;
      }
