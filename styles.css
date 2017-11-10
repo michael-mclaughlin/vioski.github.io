@@ -700,9 +700,9 @@ input::placeholder {
 
 /* mobile adaptive sizes */
 @media (max-width: 900px) {
-    /*header {
-        padding: 0 1rem;
-    }*/
+    header {
+        background-attachment: unset;
+    }
 
     .history-about-text {
         padding: 4rem;
@@ -814,6 +814,7 @@ input::placeholder {
 }
 
 @media (max-width: 800px) and (orientation: portrait) {
+
     header {
         background-position: center;
         height: 65vh;
