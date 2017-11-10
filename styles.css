@@ -700,9 +700,9 @@ input::placeholder {
 
 /* mobile adaptive sizes */
 @media (max-width: 900px) {
-    header {
+    /*header {
         padding: 0 1rem;
-    }
+    }*/
 
     .history-about-text {
         padding: 4rem;
