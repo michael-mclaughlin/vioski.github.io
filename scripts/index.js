@@ -1,5 +1,6 @@
 $(document).ready(function(){
     dropDownUl('product-nav-parent-listItem-anchor');
+    leftMenu('menu-button', 'product-nav');
     scrollToId();
 });
 
@@ -30,6 +31,22 @@ var scrollToId = function(){
          var totalPos = pos;
      $('body, html').animate({scrollTop: totalPos});
      });
+};
+
+var leftMenu = function(className, elementClassName) {
+    var className = className;
+    var menuButton = $('.' + className);
+    var elementClassName = elementClassName;
+    var leftNav = $('.' + elementClassName);
+
+    menuButton.on('click', function(){
+        $(this).toggleClass('activeMenu');
+            if($(this).hasClass('activeMenu')){
+                leftNav.animate({'left': 0}, 'fast');
+            }else{
+                leftNav.animate({'left': '-16rem'}, 'fast');
+            };
+    });
 };
 
 
