@@ -25,6 +25,10 @@ nav {
     height: fit-content;
 }
 
+.menu-button {
+    display: none;
+}
+
 section{
     display: flex;
 }
@@ -420,7 +424,10 @@ address {
 
 .product-nav-parent-listItem {
     display: inline-block;
+}
 
+.title-list-item{
+    display: none;
 }
 
 .product-nav-parent-listItem-anchor {
@@ -713,23 +720,52 @@ input::placeholder {
         display: block;
     }
 
+    .menu-button{
+        display: block;
+        position: absolute;
+        right: 0;
+        padding: 1rem;
+        /*background-color: rgba(240,90,143, 1);*/
+    }
+
+    .dots {
+        display: block;
+        width: .5rem;
+        height: .5rem;
+        border-radius: 50%;
+        margin: .25rem;
+        background-color: rgba(240,90,143, 1);
+        position: relative;
+    }
+
+    .title-list-item {
+        display: block;
+    }
+
     nav {
         padding: 0;
         margin: 0;
     }
 
     .header-h1 {
-        margin: 0 0 0 1rem;
+        margin: 1rem 0 0 1rem;
+        font-size: 2.2rem;
     }
 
     .light-background-h2 {
         margin: .25rem 1rem;
+        font-size: 1rem;
     }
 
     .product-nav {
-        width: 8rem;
-        background-color: rgba(255, 255, 255, .8);
-        border: 1px solid red;
+        position: fixed;
+        /*left: -14rem;*/
+        /*left: -10rem;*/
+        left: 0rem;
+        height: 100%;
+        margin: 0;
+        background-color: rgba(255, 255, 255, 1);
+        z-index: 1;
     }
 
     .nav-dropdown {
