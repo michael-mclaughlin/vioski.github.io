@@ -700,6 +700,10 @@ input::placeholder {
 
 /* mobile adaptive sizes */
 @media (max-width: 900px) {
+    header {
+        padding: 0 1rem;
+    }
+
     .history-about-text {
         padding: 4rem;
     }
@@ -741,7 +745,7 @@ input::placeholder {
         display: block;
         position: fixed;
         right: 0;
-        padding: 1rem;
+        padding: 1rem 1.25rem;
         z-index: 1;
         -webkit-transition: .5s ease-out;
         -moz-transition: .5s ease-out;
@@ -778,6 +782,9 @@ input::placeholder {
     nav {
         padding: 0;
         margin: 0;
+        background-color: rgba(243,243,243, 1);
+        position: fixed;
+        z-index: 2;
     }
 
     .header-h1 {

@@ -8,7 +8,8 @@ var dropDownUl = function (className){
     var className = className;
     var link = $("." + className);
 
-    link.on('click', function(){
+    link.on('click', function(event){
+        event.preventDefault();
         $(this).toggleClass('activeUl');
             if($(this).hasClass('activeUl')){
                 $(this).next('ul').slideDown('fast');
@@ -42,13 +43,12 @@ var leftMenu = function(className, elementClassName) {
     menuButton.on('click', function(){
         $(this).toggleClass('activeMenu');
             if($(this).hasClass('activeMenu')){
-                leftNav.animate({'left': 0}, 'fast');
+                leftNav.animate({'left': 0}, 500);
             }else{
-                leftNav.animate({'left': '-16rem'}, 'fast');
+                leftNav.animate({'left': '-16rem'}, 500);
             };
     });
 };
-
 
 var arrayOfHeroImages = function(){
 
