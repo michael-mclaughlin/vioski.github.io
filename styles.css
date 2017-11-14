@@ -100,7 +100,8 @@ a {
 
 .image-info-commercial {
     margin: auto;
-    padding: 20vh;
+    width: 70%;
+    height: 70%;
     opacity: 0;
     -webkit-transition: .5s ease-out;
     -moz-transition: .5s ease-out;
@@ -125,10 +126,6 @@ a {
     -o-transition: .5s ease-out;
     transition: .5s ease-out;
 
-}
-.about-row {
-    /*padding: 2rem 3rem;*/
-    /*width: 50vw;*/
 }
 
 .history-about-text {
@@ -157,7 +154,6 @@ a {
 }
 
 .furniture-description-text {
-    /*margin: 2rem auto;*/
     width: 100%;
     height: 100%;
     margin: 0;
@@ -194,7 +190,7 @@ a {
 
 .furniture-description-text-a {
     margin: auto;
-    padding: 30%;
+    padding: 10%;
 }
 
 .image-info-text-lightgrey {
@@ -260,7 +256,6 @@ a {
 
 .parallax-image-info-p {
     font-size: 1rem;
-   /* border-bottom: 1px solid #e5e5e5;*/
 }
 
 .dark-furniture-text {
@@ -274,11 +269,6 @@ a {
     padding: .25rem 0;
 }
 
-/* .parallax-image-info-chicagoChairBlue {
-    background-color: rgba(255, 255, 255, .8);
-    border-radius: .25rem;
-}
-*/
 .parallax-image-info {
     margin: 2rem 3rem;
     background-repeat: no-repeat;
@@ -315,12 +305,6 @@ a {
 .foreground-image-chicago-parent {
     display: flex;
     width: 66.666666vw;
-  /*  border: 1px solid red; */
-}
-
-.chicago {
-    /* margin: auto; */
-    /*width: auto;*/
 }
 
 .about-description-h1, .contact-description-h1 {
@@ -329,7 +313,6 @@ a {
      font-size: 2.5rem;
      font-weight: 400;
      margin: 1rem 2rem;
-    /* border-bottom: 1px solid rgba(255,255,255, 1); */
      padding: .5rem;
      text-align: center;
 }
@@ -337,7 +320,6 @@ a {
 .contact-description-h1 {
     color: #76afb0;
     padding: 1rem;
-   /* border-bottom: 1px solid rgba(118,175,176, 1); */
 }
 
 .about-description-h1 {
@@ -361,23 +343,12 @@ a {
     justify-content: flex-start;
     padding: 1rem 1rem 2.25rem 1rem;
     justify-content: space-evenly;
-    /*background-color: rgba(146,194,196, 1);*/
     background-color: #73afb1;
 }
 
 .showroom-address {
-    /*flex-grow: 1;*/
-    /*display: inline-block;*/
     margin: 1vw;
-    /*padding: 1vw;*/
-    /*width: 14rem;*/
-   /* height: 16rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;*/
 }
-
-.showroom-location {}
 
 .showroom-name,
 .showroom-street,
@@ -405,9 +376,9 @@ address {
     font-weight: 300;
     border-bottom: 2px solid rgba(240,90,143, 0);
     -webkit-transition: .5s ease-out;
-        -moz-transition: .5s ease-out;
-        -o-transition: .5s ease-out;
-        transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
 
 }
 
@@ -709,7 +680,7 @@ input::placeholder {
     }
 
     .furniture-description-text-a {
-        padding: 25%;
+        padding: 5%;
     }
 
     .chicagoChairBlue-image {
@@ -771,8 +742,19 @@ input::placeholder {
         float: right;
         border: 1px solid #333;
         background: none;
-        border-top-right: none;
-        border-top-left: none;
+        -webkit-transition: .25s ease-out;
+        -moz-transition: .25s ease-out;
+        -o-transition: .25s ease-out;
+        transition: .25s ease-out;
+    }
+
+    .activeDots {
+        background-color: rgba(240,90,143, 1);
+        border: none;
+        -webkit-transition: .25s ease-out;
+        -moz-transition: .25s ease-out;
+        -o-transition: .25s ease-out;
+        transition: .25s ease-out;
     }
 
     .title-list-item {
@@ -788,12 +770,12 @@ input::placeholder {
     }
 
     .header-h1 {
-        margin: 1rem 0 0 1rem;
+        margin: .5rem 0 0 1rem;
         font-size: 2.2rem;
     }
 
     .light-background-h2 {
-        margin: .25rem 1rem 1rem;
+        margin: 0 1rem .5rem;
         font-size: 1rem;
     }
 
@@ -825,6 +807,24 @@ input::placeholder {
     }
 }
 
+@media (max-width: 700px) and (orientation: portrait) {
+    .chicagoChairBlue-image {
+        background-attachment: unset;
+        background-position: center 10%;
+    }
+
+    .milo-image {
+        background-attachment: unset;
+        background-position: center 8%;
+        background-size: 66%;
+    }
+
+    .tuula-image {
+        background-attachment: unset;
+        background-position: center 10%;
+    }
+}
+
 @media (max-height: 500px) and (orientation: landscape) {
     header {
         background-position: bottom center;
@@ -841,11 +841,11 @@ input::placeholder {
     }
 
     .furniture-description-container {
-        position: absolute;
-        width: 100%;
+            position: absolute;
+            width: 100%;
+            height: 50%;
     }
 }
-
 
 @media (max-width: 650px) {
     .div-background-white {
@@ -858,5 +858,21 @@ input::placeholder {
     .image-info-sectional {
         height: 40vh;
     }
+}
+
+@media (max-width: 500px) {
+    .history-about-text {
+        margin-top: 50vh;
+    }
+
+   /* .furniture-description-container {
+        height: 50%;
+    }
+    */
+
+   .image-info-commercial {
+       width: 85%;
+       height: 85%;
+   }
 }
 /* end mobile adaptive sizes */
