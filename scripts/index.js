@@ -13,8 +13,10 @@ var dropDownUl = function (className){
         $(this).toggleClass('activeUl');
             if($(this).hasClass('activeUl')){
                 $(this).next('ul').slideDown('fast');
+                $(this).find('span').addClass('activeDots');
             }else{
                 $(this).next('ul').slideUp('fast');
+                $(this).find('span').removeClass('activeDots');
             };
     });
 };
