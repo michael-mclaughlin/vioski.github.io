@@ -23,7 +23,12 @@ nav {
     padding: 2rem 3rem;
     width: 100%;
     height: fit-content;
+    position: sticky;
+    top: 0;
 }
+/*.header-navigation {
+    position: fixed;
+}*/
 
 .menu-button {
     display: none;
@@ -781,7 +786,7 @@ input::placeholder {
 
     .product-nav {
         position: fixed;
-        left: -16em;
+        left: -17em;
         height: 100%;
         margin: 0;
         padding: 0 1rem;
@@ -865,14 +870,15 @@ input::placeholder {
         margin-top: 50vh;
     }
 
-   /* .furniture-description-container {
-        height: 50%;
-    }
-    */
-
    .image-info-commercial {
        width: 85%;
        height: 85%;
    }
+}
+
+@media (min-height: 200px) {
+    .product-nav {
+        overflow-y: auto;
+    }
 }
 /* end mobile adaptive sizes */

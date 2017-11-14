@@ -23,6 +23,9 @@ var dropDownUl = function (className){
 
 var scrollToId = function(){
      // handle links with @href started with '#' only
+     var nav = $('nav');
+     var navHeight = nav.height();
+
      $(document).on('click', 'a[href^="#"]', function(e) {
          var id = $(this).attr('href');
          var $id = $(id);
@@ -31,7 +34,7 @@ var scrollToId = function(){
          }
          e.preventDefault();
          var pos = $(id).offset().top;
-         var totalPos = pos;
+         var totalPos = pos - navHeight;
      $('body, html').animate({scrollTop: totalPos});
      });
 };
@@ -47,7 +50,7 @@ var leftMenu = function(className, elementClassName) {
             if($(this).hasClass('activeMenu')){
                 leftNav.animate({'left': 0}, 500);
             }else{
-                leftNav.animate({'left': '-16rem'}, 500);
+                leftNav.animate({'left': '-17rem'}, 500);
             };
     });
 };
