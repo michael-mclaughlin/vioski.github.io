@@ -34,6 +34,27 @@ header {
     background-attachment: fixed;
 }
 
+/*header:after {
+    -webkit-animation: change-opacity 5s infinite; /* Safari 4.0 - 8.0
+        animation: change-opacity 5s infinite;
+}*/
+
+@-webkit-keyframes change-opacity {
+    0% {opacity: 1;}
+    25% {opacity: .75;}
+    50% {opacity: .50;}
+    75% {opacity: .25;}
+    100% {opacity: 0;}
+}
+
+@keyframes change-opacity {
+    0% {opacity: 1;}
+    25% {opacity: .75;}
+    50% {opacity: .50;}
+    75% {opacity: .25;}
+    100% {opacity: 0;}
+}
+
 .header-picture-background {
     display: flex;
 }

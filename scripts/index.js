@@ -2,6 +2,7 @@ $(document).ready(function(){
     dropDownUl('product-nav-parent-listItem-anchor');
     leftMenu('menu-button', 'product-nav');
     scrollToId();
+    arrayOfHeroImages();
 });
 
 var dropDownUl = function (className){
@@ -56,12 +57,23 @@ var leftMenu = function(className, elementClassName) {
 };
 
 var arrayOfHeroImages = function(){
-
-    var imageArray = [];
-    var image = $('<img>');
-    var hero = $('header');
-
-    imageArray.push(totalImage);
-    hero.append(imageArray);
+    var i = 0;
+    var limit = 0;
+    var limitCount = 0;
+    var interval = 1;
+    var header = $('header');
+    var imageArray = [
+        "assets/fratelliGrayShadowCropped.png",
+        "assets/chicagoSofaShadowCropped.png",
+        "assets/williamShadowCropped.png"
+    ];
+    header.css({ "background-image":"url(" + imageArray[0]+ ")" });
+    var myInterval = setInterval(function() {
+       if (limit && limitCount >= limit-1) clearTimeout(myInterval);
+       if (i >= imageArray.length) i = 0;
+        header.css({ "background-image":"url(" + imageArray[i]+ ")"});
+       i++;
+       limitCount++;
+    }, interval*5000);
 
 }
