@@ -108,6 +108,10 @@ a {
     flex-direction: row;
 }
 
+.furniture-sections {
+    background-color: #fff;
+}
+
 .tuula {
     background-image: url('assets/tuulaGreenShadow.png');
     -webkit-transition: .5s ease-out;
@@ -703,12 +707,17 @@ input::placeholder {
 
 
 /* mobile adaptive sizes */
-@media (min-width: 1200px){
+@media (max-width: 1050px) and (orientation: portrait) {
+    header {
+        height: 90vh;
+    }
 
+    .header-background-images {
+        bottom: 30%;
+    }
 }
 
 @media (max-width: 900px) {
-
 
     .history-about-text {
         padding: 4rem;
