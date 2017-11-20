@@ -27,32 +27,20 @@ body::-webkit-scrollbar-thumb, ul::-webkit-scrollbar-thumb {
 
 header {
     height: 100vh;
-    background-image: url('assets/fratelliGrayShadowCropped.png');
+    /*background-image: url('assets/fratelliGrayShadowCropped.png');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
-/*header:after {
-    -webkit-animation: change-opacity 5s infinite; /* Safari 4.0 - 8.0
-        animation: change-opacity 5s infinite;
-}*/
-
-@-webkit-keyframes change-opacity {
-    0% {opacity: 1;}
-    25% {opacity: .75;}
-    50% {opacity: .50;}
-    75% {opacity: .25;}
-    100% {opacity: 0;}
-}
-
-@keyframes change-opacity {
-    0% {opacity: 1;}
-    25% {opacity: .75;}
-    50% {opacity: .50;}
-    75% {opacity: .25;}
-    100% {opacity: 0;}
+.header-background-images {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .header-picture-background {
@@ -295,6 +283,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-color: rgba(243,243,243, 1);
 }
 
 .parallax-image-info-p {
@@ -527,6 +516,7 @@ address {
 
 .contact-section {
     flex-direction: column;
+    background-color: rgba(243,243,243, 1);
 }
 
 .contact-form-container {
@@ -713,10 +703,12 @@ input::placeholder {
 
 
 /* mobile adaptive sizes */
+@media (min-width: 1200px){
+
+}
+
 @media (max-width: 900px) {
-    header {
-        background-attachment: unset;
-    }
+
 
     .history-about-text {
         padding: 4rem;
@@ -840,11 +832,6 @@ input::placeholder {
 
 @media (max-width: 800px) and (orientation: portrait) {
 
-    header {
-        background-position: center;
-        height: 65vh;
-    }
-
     .history-about-text {
         padding: 2rem;
     }
@@ -869,10 +856,7 @@ input::placeholder {
 }
 
 @media (max-height: 500px) and (orientation: landscape) {
-    header {
-        background-position: bottom center;
-        height: 100vh;
-    }
+
 }
 
 @media (max-width: 700px) {

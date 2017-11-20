@@ -2,7 +2,8 @@ $(document).ready(function(){
     dropDownUl('product-nav-parent-listItem-anchor');
     leftMenu('menu-button', 'product-nav');
     scrollToId();
-    arrayOfHeroImages();
+    swapHeaderImages();
+//    arrayOfHeroImages();
 });
 
 var dropDownUl = function (className){
@@ -56,24 +57,37 @@ var leftMenu = function(className, elementClassName) {
     });
 };
 
-var arrayOfHeroImages = function(){
-    var i = 0;
-    var limit = 0;
-    var limitCount = 0;
-    var interval = 1;
-    var header = $('header');
-    var imageArray = [
-        "assets/fratelliGrayShadowCropped.png",
-        "assets/chicagoSofaShadowCropped.png",
-        "assets/williamShadowCropped.png"
+var swapHeaderImages = function(){
+    var image = $('#header-background-images');
+    var imagesArray = [
+        { name: 'fratelli chairs',
+          src: 'assets/fratelliGrayShadowCropped.png',
+        },
+        { name: 'chicago sofa',
+          src: 'assets/chicagoSofaShadowCropped.png',
+        },
+        { name: 'william sofa',
+          src: 'assets/williamShadowCropped.png',
+        },
     ];
-    header.css({ "background-image":"url(" + imageArray[0]+ ")" });
-    var myInterval = setInterval(function() {
-       if (limit && limitCount >= limit-1) clearTimeout(myInterval);
-       if (i >= imageArray.length) i = 0;
-        header.css({ "background-image":"url(" + imageArray[i]+ ")"});
-       i++;
-       limitCount++;
-    }, interval*5000);
+    var i = 1;
+    var timer = 4000;
+    var fadeTimer = 1000;
+    var rotateImage = function() {
+        image.fadeOut(fadeTimer, function(){
+            var that = $(this);
+            that.attr('src', imagesArray[i].src);
+            that.attr('alt', imagesArray[i].name);
 
-}
+            that.fadeIn(fadeTimer, function(){
+                if (i === imagesArray.length - 1) {
+                    i = 0;
+                } else {
+                    i++;
+                };
+            });
+        });
+    }
+    setInterval (rotateImage, timer);
+};
+
