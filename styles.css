@@ -51,9 +51,10 @@ nav {
     padding: 2rem 3rem;
     width: 100%;
     height: fit-content;
-   /* position: sticky;
-    top: 0;
-    */
+    box-sizing: border-box;
+    background-color: rgba(243,243,243, 1);
+    position: fixed;
+    z-index: 2;
 }
 
 .menu-button {
@@ -455,6 +456,7 @@ address {
 .nav-dropdown {
     padding: inherit;
     position: absolute;
+    background-color: rgba(243,243,243, 1);
     display: none;
 }
 
@@ -808,10 +810,8 @@ input::placeholder {
     nav {
         padding: 0;
         margin: 0;
-        background-color: rgba(243,243,243, 1);
-        position: fixed;
-        z-index: 2;
     }
+
 
     .header-h1 {
         margin: .5rem 0 0 1rem;
@@ -836,6 +836,7 @@ input::placeholder {
     .nav-dropdown {
         position: relative;
         padding-left: 1rem;
+        background: none;
     }
 }
 
