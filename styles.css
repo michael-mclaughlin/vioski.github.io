@@ -227,6 +227,9 @@ a {
 .commercial-spaces-text {
     position: absolute;
     padding: 2.5vh 3rem;
+    height: max-content;
+    width: 100%;
+    box-sizing: border-box;
     background-color: rgba(178, 221, 240, .8);
     text-decoration: none;
 }
@@ -843,6 +846,10 @@ input::placeholder {
         position: relative;
         padding-left: 1rem;
         background: none;
+    }
+
+    .commercial-spaces-text {
+        padding: 2.5vh 1rem;
     }
 }
 

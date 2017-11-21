@@ -25,8 +25,9 @@ var dropDownUl = function (className){
 
 var scrollToId = function(){
      // handle links with @href started with '#' only
-     var nav = $('nav');
+     var nav = $('#main-navigation');
      var navHeight = nav.height();
+     var minusHeight = 2;
 
      $(document).on('click', 'a[href^="#"]', function(e) {
          var id = $(this).attr('href');
@@ -36,7 +37,7 @@ var scrollToId = function(){
          }
          e.preventDefault();
          var pos = $(id).offset().top;
-         var totalPos = pos - navHeight;
+         var totalPos = pos - (navHeight - minusHeight);
      $('body, html').animate({scrollTop: totalPos});
      });
 };
