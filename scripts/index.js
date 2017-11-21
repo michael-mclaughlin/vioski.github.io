@@ -73,6 +73,9 @@ var swapHeaderImages = function(){
     var i = 1;
     var timer = 4000;
     var fadeTimer = 1000;
+
+    image.attr('src', imagesArray[0].src);
+    image.attr('alt', imagesArray[0].name);
     var rotateImage = function() {
         image.fadeOut(fadeTimer, function(){
             var that = $(this);
