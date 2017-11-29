@@ -91,12 +91,25 @@ a {
     color: rgba(240,90,143, 1);
 }
 
-.light-background-h2 {
+.light-background-h2,
+.collection-header {
     font-weight: 200;
     margin: .25rem 0;
     color: #333333;
+}
+
+.light-background-h2 {
     width: fit-content;
     white-space: nowrap;
+}
+
+.collection-header {
+    border: 1px solid green;
+    width: 100vw;
+}
+
+.body-non-home {
+    margin-top: 10rem;
 }
 
 .div-background-white {
@@ -385,16 +398,29 @@ a {
     width: 50vw;
 }
 
-.location-section {
+.commercial-products {
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 1rem 1rem 2.25rem 1rem;
-    justify-content: space-evenly;
-    background-color: #73afb1;
+    justify-content: center;
 }
 
-.showroom-address {
+.collection-cards {
+    background-color: rgba(255, 255, 255, 1);
+    font-style: normal;
     margin: 1vw;
+    width: 18rem;
+    height: 18rem;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255, .3);
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+.collection-cards-images {
+    width: 100%;
+    /*border: 1px solid blue;*/
 }
 
 .showroom-name,
@@ -403,19 +429,6 @@ a {
 .showroom-telephone,
 .showroom-email {
     margin: .5rem 0;
-}
-
-address {
-    color: rgba(255, 255, 255, 1);
-    font-style: normal;
-    margin: 0 auto;
-    background-color: #94c2c3;
-    min-width: 16.5rem;
-    max-width: 19rem;
-    height: 16rem;
-    padding: 1rem;
-    border-radius: 4px;
-    border: 1px solid rgba(255,255,255, .3);
 }
 
 .showroom-email-a {
@@ -500,9 +513,9 @@ address {
     list-style-type: none;
 }
 
-.showroom-location {
+.card-furniture-name {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     margin: .75rem 0;
 }
@@ -530,10 +543,11 @@ address {
     background-position: center;
 }
 
-/*.blah {
-    width: 100%;
-    border: 1px solid red;
-}*/
+.non-home-nav {
+    position: fixed;
+    top: 0;
+    /*border: 1px solid red;*/
+}
 
 .commercial-images {
     width: 100%;
@@ -864,6 +878,10 @@ input::placeholder {
 
     .commercial-spaces-text {
         padding: 2.5vh 1rem;
+    }
+
+    .body-non-home{
+        margin-top: 5rem;
     }
 }
 
