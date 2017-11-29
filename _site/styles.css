@@ -400,26 +400,27 @@ a {
 
 .commercial-products {
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 1rem 1rem 2.25rem 1rem;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .collection-cards {
-    margin: 1vw;
     background-color: rgba(255, 255, 255, 1);
     font-style: normal;
-    margin: 1rem auto;
+    margin: 1vw;
     width: 18rem;
     height: 18rem;
     padding: 1rem;
     border-radius: 4px;
     border: 1px solid rgba(255,255,255, .3);
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
 }
 
 .collection-cards-images {
     width: 100%;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 
 .showroom-name,
@@ -429,11 +430,6 @@ a {
 .showroom-email {
     margin: .5rem 0;
 }
-
-/*address {
-    color: rgba(255, 255, 255, 1);
-
-}*/
 
 .showroom-email-a {
     color: #333333;
@@ -517,9 +513,9 @@ a {
     list-style-type: none;
 }
 
-.showroom-location {
+.card-furniture-name {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     margin: .75rem 0;
 }
@@ -547,15 +543,10 @@ a {
     background-position: center;
 }
 
-/*.non-home-page,
-.commercial-products{
-    margin-top: 10rem;
-}*/
-
 .non-home-nav {
     position: fixed;
     top: 0;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .commercial-images {
