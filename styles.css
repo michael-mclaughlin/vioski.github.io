@@ -814,22 +814,30 @@ input::placeholder {
         height: .5rem;
         border-radius: 50%;
         margin: .25rem;
-        background-color: rgba(240,90,143, 1);
         position: relative;
         -webkit-transition: .25s ease-out;
         -moz-transition: .25s ease-out;
         -o-transition: .25s ease-out;
         transition: .25s ease-out;
     }
+    .dots {
+        background-color: rgba(240,90,143, 1);
+    }
 
     .dots-links {
         float: right;
         border: 1px solid #333;
         background: none;
-        -webkit-transition: .25s ease-out;
-        -moz-transition: .25s ease-out;
-        -o-transition: .25s ease-out;
-        transition: .25s ease-out;
+    }
+
+    .dots-separator {
+        display: inline-block;
+        width: .5rem;
+        height: .5rem;
+        border-radius: 50%;
+        margin: .25rem;
+        border: 1px solid #333;
+        background: none;
     }
 
     .activeDots {
