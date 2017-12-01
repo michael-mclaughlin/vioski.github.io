@@ -3,6 +3,7 @@ $(document).ready(function(){
     leftMenu('menu-button', 'product-nav');
     scrollToId();
     swapHeaderImages();
+    filterProducts();
 //    arrayOfHeroImages();
 });
 
@@ -72,7 +73,7 @@ var swapHeaderImages = function(){
         },
     ];
     var i = 1;
-    var timer = 4000;
+    var timer = 6000;
     var fadeTimer = 1000;
 
     image.attr('src', imagesArray[0].src);
@@ -93,5 +94,68 @@ var swapHeaderImages = function(){
         });
     }
     setInterval (rotateImage, timer);
+};
+
+var filterProducts = function () {
+    var filters = $('.nav-filter-links');
+
+
+    filters.on('click', function(){
+        var that = $(this);
+        var data = that.attr('data-products');
+        var collection = $('div');
+        switch (data) {
+            case 'all':
+                collection.filter("[class~='collection-cards']").fadeIn('500');
+                break;
+
+            case 'beds':
+                collection.filter(":not([class~='beds'])").fadeOut('500');
+                collection.filter("[class~='beds']").fadeIn('500');
+
+                break;
+
+            case 'benches':
+                collection.filter(":not([class~='benches'])").fadeOut('500');
+                collection.filter("[class~='benches']").fadeIn('500');
+                break;
+
+            case 'chairs':
+                collection.filter(":not([class~='chairs'])").fadeOut('500');
+                collection.filter("[class~='chairs']").fadeIn('500');
+                break;
+
+            case 'consoles':
+                collection.filter(":not([class~='consoles'])").fadeOut('500');
+                collection.filter("[class~='consoles']").fadeIn('500');
+                break;
+
+            case 'desks':
+                collection.filter(":not([class~='desks'])").fadeOut('500');
+                collection.filter("[class~='desks']").fadeIn('500');
+                break;
+
+            case 'lounges':
+                collection.filter(":not([class~='lounges'])").fadeOut('500');
+                collection.filter("[class~='lounges']").fadeIn('500');
+                break;
+
+            case 'tables':
+                collection.filter(":not([class~='tables'])").fadeOut('500');
+                collection.filter("[class~='tables']").fadeIn('500');
+                break;
+
+            case 'sectionals':
+                collection.filter(":not([class~='sectionals'])").fadeOut('500');
+                collection.filter("[class~='sectionals']").fadeIn('500');
+                break;
+
+            case 'sofas':
+                collection.filter(":not([class~='sofas'])").fadeOut('500');
+                collection.filter("[class~='sofas']").fadeIn('500');
+                break;
+        }
+        return false;
+    })
 };
 
