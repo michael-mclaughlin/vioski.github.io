@@ -424,7 +424,8 @@ a {
 
 .tear-sheet-links {
     float: right;
-    color: #999;
+    font-size: .85rem;
+    color: #c4c4c4;
     webkit-transition: .25s ease-out;
     -moz-transition: .25s ease-out;
     -o-transition: .25s ease-out;
@@ -484,6 +485,10 @@ a {
     float: right;
     padding: .5rem
 }
+
+
+
+
 
 .product-nav {
     list-style-type: none;
