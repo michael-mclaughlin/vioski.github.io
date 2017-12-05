@@ -4,7 +4,7 @@ $(document).ready(function(){
     scrollToId();
     swapHeaderImages();
     filterProducts();
-//    arrayOfHeroImages();
+    mapProductDetails();
 });
 
 var dropDownUl = function (className){
@@ -99,7 +99,6 @@ var swapHeaderImages = function(){
 var filterProducts = function () {
     var filters = $('.nav-filter-links');
 
-
     filters.on('click', function(){
         var that = $(this);
         var data = that.attr('data-products');
@@ -112,7 +111,6 @@ var filterProducts = function () {
             case 'beds':
                 collection.filter(":not([class~='beds'])").fadeOut('500');
                 collection.filter("[class~='beds']").fadeIn('500');
-
                 break;
 
             case 'benches':
@@ -156,6 +154,22 @@ var filterProducts = function () {
                 break;
         }
         return false;
-    })
+    });
+};
+
+var mapProductDetails = function () {
+
+var cardsProductsLinks = $('.cards-products-links');
+var collectionCardsImages = $('.collection-cards-images');
+var productImageProducts = $('#product-image-products');
+
+
+     $.getJSON("productDetails.json", function(data) {
+            console.log(data);
+//            $('body').append(data.employees[0].firstName);
+        });
+
+
+
 };
 
