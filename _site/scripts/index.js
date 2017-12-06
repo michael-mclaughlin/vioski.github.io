@@ -161,15 +161,43 @@ var mapProductDetails = function () {
 
 var cardsProductsLinks = $('.cards-products-links');
 var collectionCardsImages = $('.collection-cards-images');
+var productDetailedCardImages = $('#product-detailed-card-images');
 var productImageProducts = $('#product-image-products');
+var productDetailsHeaderH1 = $('#product-details-header-h1');
 
+console.log(data.productDetails);
 
-     $.getJSON("productDetails.json", function(data) {
-            console.log(data);
-//            $('body').append(data.employees[0].firstName);
+var cplArray = cardsProductsLinks.map(function(index, elem){
+    var that = $(this);
+//    console.log(that.attr('id'));
+//    console.log(that.attr('class'));
+//    console.log(index);
+//    console.log(elem.className);
+
+    that.on('click', function(){
+        var productDetailsHeaderH1 = $('#product-details-header-h1');
+        var dataProductDetailsMap = data.productDetails.map(function(index, elem) {
+//            console.log(index);
+//            console.log(index.src);
+//            console.log(index.name);
+            var that = $(this);
+            return index;
         });
 
+        window.open('products.html');
 
+        that.load('ajax/products.html', function(){
+            productDetailsHeaderH1.html(dataProductDetailsMap[index].name);
+        })
+
+        console.log(dataProductDetailsMap[index].name);
+        console.log(dataProductDetailsMap[index].src);
+        console.log(dataProductDetailsMap[index].index);
+    });
+
+}).get();
+
+cplArray
 
 };
 

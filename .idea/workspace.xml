@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f27fd91-b065-47f9-a0d2-3bf813c8444f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/scripts/productDetails.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/productDetails.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/scripts/productDetails.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/productDetails.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/scripts/productDetails.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/productDetails.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll-metadata" afterPath="$PROJECT_DIR$/.jekyll-metadata" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/collection.html" afterPath="$PROJECT_DIR$/_site/collection.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/products.html" afterPath="$PROJECT_DIR$/_site/products.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/scripts/index.js" afterPath="$PROJECT_DIR$/_site/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/styles.css" afterPath="$PROJECT_DIR$/_site/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collection.html" afterPath="$PROJECT_DIR$/collection.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/index.js" afterPath="$PROJECT_DIR$/scripts/index.js" />
     </list>
@@ -27,8 +27,8 @@
       <file leaf-file-name="collection.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collection.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="32" />
+            <state relative-caret-position="445">
+              <caret line="64" column="92" lean-forward="false" selection-start-line="64" selection-start-column="92" selection-end-line="64" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="products.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="43" />
+            <state relative-caret-position="383">
+              <caret line="59" column="91" lean-forward="false" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -47,18 +47,18 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="152" column="68" lean-forward="true" selection-start-line="152" selection-start-column="68" selection-end-line="152" selection-end-column="68" />
+            <state relative-caret-position="403">
+              <caret line="188" column="24" lean-forward="false" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productDetails.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/productDetails.json">
+      <file leaf-file-name="productDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/productDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3225">
-              <caret line="215" column="0" lean-forward="true" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+            <state relative-caret-position="568">
+              <caret line="640" column="1" lean-forward="false" selection-start-line="640" selection-start-column="1" selection-end-line="640" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -107,12 +107,12 @@
         <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/.jekyll-metadata" />
         <option value="$PROJECT_DIR$/_site/collection.html" />
-        <option value="$PROJECT_DIR$/_site/products.html" />
         <option value="$PROJECT_DIR$/_site/styles.css" />
         <option value="$PROJECT_DIR$/scripts/productDetails.js.html" />
-        <option value="$PROJECT_DIR$/collection.html" />
-        <option value="$PROJECT_DIR$/scripts/productDetails.js" />
         <option value="$PROJECT_DIR$/scripts/productDetails.json" />
+        <option value="$PROJECT_DIR$/scripts/productDetails.js" />
+        <option value="$PROJECT_DIR$/collection.html" />
+        <option value="$PROJECT_DIR$/_site/products.html" />
         <option value="$PROJECT_DIR$/scripts/index.js" />
       </list>
     </option>
@@ -291,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512333969953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added json file">
+      <created>1512497709865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512497709865</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -357,7 +364,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="committing files" />
     <MESSAGE value="committing files for internal links" />
-    <option name="LAST_COMMIT_MESSAGE" value="committing files for internal links" />
+    <MESSAGE value="added json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added json file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -636,32 +644,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/collection.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/productDetails.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3225">
-          <caret line="215" column="0" lean-forward="true" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+        <state relative-caret-position="445">
+          <caret line="64" column="92" lean-forward="false" selection-start-line="64" selection-start-column="92" selection-end-line="64" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="43" />
+        <state relative-caret-position="383">
+          <caret line="59" column="91" lean-forward="false" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/productDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="640" column="1" lean-forward="false" selection-start-line="640" selection-start-column="1" selection-end-line="640" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="152" column="68" lean-forward="true" selection-start-line="152" selection-start-column="68" selection-end-line="152" selection-end-column="68" />
+        <state relative-caret-position="403">
+          <caret line="188" column="24" lean-forward="false" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
           <folding />
         </state>
       </provider>
