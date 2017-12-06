@@ -422,6 +422,20 @@ a {
     /*border: 1px solid blue;*/
 }
 
+.tear-sheet-links {
+    float: right;
+    font-size: .85rem;
+    color: #c4c4c4;
+    webkit-transition: .25s ease-out;
+    -moz-transition: .25s ease-out;
+    -o-transition: .25s ease-out;
+    transition: .25s ease-out;
+}
+
+.tear-sheet-links:hover {
+    color: rgba(240,90,143, 1);
+}
+
 .products-detailed {
     flex-direction: row;
     margin-top: 10rem;
@@ -467,34 +481,12 @@ a {
 }
 
 .product-detailed-card-details-share-social-media {
-    color: #72e600;
+    color: #fff;
     float: right;
     padding: .5rem
 }
 
-.tear-sheet-links,
-.tear-sheet-links-product-page {
-    float: right;
-    font-size: .85rem;
-    webkit-transition: .25s ease-out;
-    -moz-transition: .25s ease-out;
-    -o-transition: .25s ease-out;
-    transition: .25s ease-out;
-}
 
-.tear-sheet-links {
-    color: #c4c4c4;
-}
-
-.tear-sheet-links-product-page {
-    color: #72e600;
-}
-
-.tear-sheet-links:hover,
-.tear-sheet-links-product-page:hover,
-.product-detailed-card-details-share-social-media:hover {
-    color: rgba(240,90,143, 1);
-}
 
 
 
