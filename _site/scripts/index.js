@@ -169,30 +169,23 @@ console.log(data.productDetails);
 
 var cplArray = cardsProductsLinks.map(function(index, elem){
     var that = $(this);
-//    console.log(that.attr('id'));
-//    console.log(that.attr('class'));
-//    console.log(index);
-//    console.log(elem.className);
 
     that.on('click', function(){
-        var productDetailsHeaderH1 = $('#product-details-header-h1');
         var dataProductDetailsMap = data.productDetails.map(function(index, elem) {
-//            console.log(index);
-//            console.log(index.src);
-//            console.log(index.name);
             var that = $(this);
             return index;
         });
+//        console.log(dataProductDetailsMap[index].href);
+//        that.attr('href', dataProductDetailsMap[index].href);
+//        console.log(dataProductDetailsMap[index].href);
 
-        window.open('products.html');
-
-        that.load('ajax/products.html', function(){
-            productDetailsHeaderH1.html(dataProductDetailsMap[index].name);
-        })
+          window.open('products.html');
 
         console.log(dataProductDetailsMap[index].name);
         console.log(dataProductDetailsMap[index].src);
         console.log(dataProductDetailsMap[index].index);
+        console.log(dataProductDetailsMap[index].href);
+        console.log(dataProductDetailsMap[index].width);
     });
 
 }).get();
