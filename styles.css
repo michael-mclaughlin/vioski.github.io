@@ -480,15 +480,26 @@ a {
     width: 100%;
 }
 
-.product-detailed-card-details-share-social-media {
-    color: #fff;
+.product-detailed-card-details-share-social-media,
+.tear-sheet-links-product-page {
+    color: #72e600;
     float: right;
-    padding: .5rem
+    padding: .5rem;
+    webkit-transition: .25s ease-out;
+    -moz-transition: .25s ease-out;
+    -o-transition: .25s ease-out;
+    transition: .25s ease-out;
+
 }
 
+.product-detailed-card-details-share-social-media:hover,
+.tear-sheet-links-product-page:hover {
+    color: rgba(240,90,143, 1);
+}
 
+/*.tear-sheet-links-product-page {
 
-
+}*/
 
 .product-nav {
     list-style-type: none;
