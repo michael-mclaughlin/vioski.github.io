@@ -159,38 +159,22 @@ var filterProducts = function () {
 
 var mapProductDetails = function () {
 
-var cardsProductsLinks = $('.cards-products-links');
-var collectionCardsImages = $('.collection-cards-images');
-var productDetailedCardImages = $('#product-detailed-card-images');
-var productImageProducts = $('#product-image-products');
-var productDetailsHeaderH1 = $('#product-details-header-h1');
+    var cardsProductsLinks = $('.cards-products-links');
+    console.log(data.productDetails);
 
-console.log(data.productDetails);
-
-var cplArray = cardsProductsLinks.map(function(index, elem){
-    var that = $(this);
-
-    that.on('click', function(){
-        var dataProductDetailsMap = data.productDetails.map(function(index, elem) {
-            var that = $(this);
-            return index;
+    var cplArray = cardsProductsLinks.map(function(index, elem){
+        var that = $(this);
+        that.on('click', function(){
+            var dataProductDetailsMap = data.productDetails.map(function(index, elem) {
+                var that = $(this);
+                return index;
+            });
+            var storedData = dataProductDetailsMap[index];
+                localStorage.setItem('storedData', JSON.stringify(storedData));
         });
-//        console.log(dataProductDetailsMap[index].href);
-//        that.attr('href', dataProductDetailsMap[index].href);
-//        console.log(dataProductDetailsMap[index].href);
-
-          window.open('products.html');
-
-        console.log(dataProductDetailsMap[index].name);
-        console.log(dataProductDetailsMap[index].src);
-        console.log(dataProductDetailsMap[index].index);
-        console.log(dataProductDetailsMap[index].href);
-        console.log(dataProductDetailsMap[index].width);
-    });
-
-}).get();
-
-cplArray
-
+    }).get();
+    cplArray
 };
+
+
 
