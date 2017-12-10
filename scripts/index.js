@@ -1,5 +1,6 @@
 $(document).ready(function(){
     dropDownUl('product-nav-parent-listItem-anchor');
+    activeFilters('nav-filter-links');
     leftMenu('menu-button', 'product-nav');
     scrollToId();
     swapHeaderImages();
@@ -21,6 +22,16 @@ var dropDownUl = function (className){
                 $(this).next('ul').slideUp('fast');
                 $(this).find('span').removeClass('activeDots');
             };
+    });
+};
+
+var activeFilters = function (className){
+    var className = className;
+    var link = $("." + className);
+    link.removeClass('nav-filter-links-active');
+    link.on('click', function(event){
+        $(this).addClass('nav-filter-links-active');
+        $(this).parent('li').siblings().find(link).removeClass('nav-filter-links-active');
     });
 };
 
