@@ -694,7 +694,7 @@ a {
 .nav-filter-links {
     padding: .5rem 1rem;
     display: block;
-    color: #333;
+    color: #999;
     border-bottom: 2px solid rgba(240, 90, 143, 0);
     -webkit-transition: .25s ease-out;
     -moz-transition: .25s ease-out;
