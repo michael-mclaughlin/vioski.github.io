@@ -6,6 +6,7 @@ $(document).ready(function(){
     swapHeaderImages();
     filterProducts();
     mapProductDetails();
+    mapFilterCollection();
 });
 
 var dropDownUl = function (className){
@@ -171,8 +172,6 @@ var filterProducts = function () {
 var mapProductDetails = function () {
 
     var cardsProductsLinks = $('.cards-products-links');
-    console.log(data.productDetails);
-
     var cplArray = cardsProductsLinks.map(function(index, elem){
         var that = $(this);
         that.on('click', function(){
@@ -185,6 +184,23 @@ var mapProductDetails = function () {
         });
     }).get();
     cplArray
+};
+
+var mapFilterCollection = function (){
+    var filterLinks = $('.header-nav-links');
+
+    var colArray = filterLinks.map(function(index, elem){
+        var that = $(this);
+        that.on('click', function(index, event){
+            var that = $(this);
+            var dataType = that.attr('data-type');
+            var storedLinkData = dataType;
+                localStorage.setItem('storedLinkData', JSON.stringify(storedLinkData));
+                console.log(storedLinkData);
+            return;
+        });
+    }).get();
+    colArray
 };
 
 

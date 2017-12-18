@@ -26,6 +26,6 @@ $(document).ready(function(){
             productSpan6.html(retrievedData.woodSpecies);
             productSpan7.html(retrievedData.woodFinish);
 
-    })
+    });
 
 });
