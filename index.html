@@ -195,9 +195,11 @@
     <p class="tag-line-text-h1"> Customization is our passion. We will resize our current designs, help intelligently re-imagine a space, and work with you to meet all your specifications; beautifully. Our furniture is perfect for customization because it is inherently social and smart by design. We really can make the impossible possible.</p>
 </div>
 
-<section id="contact-section" class="contact-section">
-    <h1 class="contact-description-h1">CONTACT</h1>
-    <div id="contact-form-container" class="contact-form-container">
+
+<!--begin footer-->
+<footer id="contact-section" class="contact-section">
+    <h1 class="contact-header">CONTACT</h1>
+    <form id="contact-form-container" class="contact-form-container" action="POST">
     <table id="contact-form" class="contact-form">
         <tr>
             <td><h1 id="contact-header1" class="contact-header contact-form-header1">What type of business are you?</h1></td>
@@ -207,19 +209,19 @@
                 <!--<h1 id="contact-header1" class="contact-header contact-form-header1">What are you?</h1>-->
                 <label class="control control--checkbox">Commercial Representative
                     <input type="checkbox" name="business-type" value="commercial-representative" checked="checked"/>
-                    <div class="control__indicator"></div>
+                    <span class="control__indicator"></span>
                 </label>
                 <label class="control control--checkbox">Commercial Dealer
                     <input type="checkbox" name="business-type" value="commercial-dealer"/>
-                    <div class="control__indicator"></div>
+                    <span class="control__indicator"></span>
                 </label>
                 <label class="control control--checkbox">Architectural and Design Firm
                     <input type="checkbox" name="business-type" value="architectural-design-firm" />
-                    <div class="control__indicator"></div>
+                    <span class="control__indicator"></span>
                 </label>
                 <label class="control control--checkbox">End Client
                     <input type="checkbox" name="business-type" value="end-client"/>
-                    <div class="control__indicator"></div>
+                    <span class="control__indicator"></span>
                 </label>
             </td>
         </tr>
@@ -265,13 +267,8 @@
             </td>
         </tr>
     </table>
-    </div>
-
-</section>
-<!--end-->
-
-<!--begin footer-->
-<footer></footer>
+    </form>
+</footer>
 <!--end-->
 
 </body>

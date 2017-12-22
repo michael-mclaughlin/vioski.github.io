@@ -186,7 +186,8 @@ a {
 }
 
 .history-about-text {
-    background-color: rgba(51, 51, 51, 1);
+    /*background-color: rgba(51, 51, 51, 1);*/
+    background-color: #454545;
     color: #f3f3f3;
     width: 50vw;
     box-sizing: border-box;
@@ -410,7 +411,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
    /* max-width: 80vw; */
-    margin: 0 auto;
+    margin: 0 auto 5rem;
 }
 
 .collection-cards {
@@ -661,7 +662,10 @@ a {
 
 .contact-section {
     flex-direction: column;
-    background-color: rgba(243,243,243, 1);
+    background-color: rgba(51, 51, 51, 1);
+    /*background-color: rgba(243,243,243, 1);*/
+    overflow: hidden;
+    padding-bottom: 5rem;
 }
 
 .contact-form-container {
@@ -736,10 +740,25 @@ a {
 
 /* Contact form */
 
-.contact-header, .contact-label {
+.contact-header,
+.contact-label {
+    font-size: 1.25rem;
+}
+
+.contact-label {
     font-weight: 300;
     color: #999999;
-    font-size: 1.25rem;
+}
+
+.contact-header {
+    font-weight: 200;
+    color: #f3f3f3;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.contact-form-header1 {
+    color: #999999;
 }
 
 input[type=text],
@@ -778,19 +797,19 @@ input[type=radio] {
     font-weight: 400;
     padding: 1rem 2rem;
     color: #fff;
-    background-color: rgba(118, 175, 176, 1);
+    background-color: #ffa2ab;
     border: none;
     outline: none;
     cursor: pointer;
     float: right;
-    -webkit-transition: .5s ease-out;
-    -moz-transition: .5s ease-out;
-    -o-transition: .5s ease-out;
-    transition: .5s ease-out;
+    -webkit-transition: .25s ease-out;
+    -moz-transition: .25s ease-out;
+    -o-transition: .25s ease-out;
+    transition: .25s ease-out;
 }
 
 .submit-form-button:hover {
-    background-color: rgba(240, 90, 143, 1);
+    background-color: rgba(240,90,143, 1);
 }
 
 input::placeholder {
@@ -907,6 +926,24 @@ input::placeholder {
     .header-background-images {
         bottom: 30%;
     }
+}
+
+@media (max-width: 1050px) {
+    .products-detailed {
+        flex-direction: column;
+        margin-top: 3.5rem;
+    }
+
+    .product-detailed-card-details {
+        min-width: 0;
+    }
+
+    .product-detailed-card,
+    .product-detailed-card-details {
+        width: auto;
+    }
+
+
 }
 
 @media (max-width: 900px) {
@@ -1068,7 +1105,7 @@ input::placeholder {
         margin-top: 7.5rem;
     }
 
-    .products-detailed {
+    /*.products-detailed {
         flex-direction: column;
         margin-top: 2.5rem;
     }
@@ -1076,8 +1113,7 @@ input::placeholder {
     .product-detailed-card,
     .product-detailed-card-details {
         width: auto;
-        /*width: 100%;*/
-    }
+    }*/
 }
 
 @media (max-width: 800px) and (orientation: portrait) {
