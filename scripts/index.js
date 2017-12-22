@@ -50,7 +50,8 @@ var scrollToId = function(){
          }
          e.preventDefault();
          var pos = $(id).offset().top;
-         var totalPos = pos - (navHeight - minusHeight);
+         var totalPos = pos - navHeight;
+//         var totalPos = pos - (navHeight - minusHeight);
      $('body, html').animate({scrollTop: totalPos});
      });
 };
