@@ -419,10 +419,10 @@ a {
     font-style: normal;
     margin: 1vw;
     width: 18rem;
-    /*flex-grow: 1;*/
     padding: 1rem;
     border-radius: 4px;
     border: 1px solid rgba(255,255,255, .3);
+    display: none;
 }
 
 .collection-cards-links {
