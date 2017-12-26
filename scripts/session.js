@@ -9,6 +9,12 @@ $(document).ready(function(){
         var productSpan5 = $('#product-details-header-span5');
         var productSpan6 = $('#product-details-header-span6');
         var productSpan7 = $('#product-details-header-span7');
+        var productSpan8 = $('#product-details-header-span8');
+        var productSpan9 = $('#product-details-header-span9');
+        var productSpan10 = $('#product-details-header-span10');
+        var productSpan11 = $('#product-details-header-span11');
+        var productSpan12 = $('#product-details-header-span12');
+        var productSpan13 = $('#product-details-header-span13');
 
         var productImage = $('#product-image-products');
 
@@ -21,10 +27,16 @@ $(document).ready(function(){
             productSpan1.html(retrievedData.width);
             productSpan2.html(retrievedData.height);
             productSpan3.html(retrievedData.depth);
-            productSpan4.html(retrievedData.fabric);
-            productSpan5.html(retrievedData.leather);
-            productSpan6.html(retrievedData.woodSpecies);
-            productSpan7.html(retrievedData.woodFinish);
+            productSpan4.html(retrievedData.seatHeight);
+            productSpan5.html(retrievedData.armHeight);
+            productSpan6.html(retrievedData.backHeight);
+            productSpan7.html(retrievedData.fabric);
+            productSpan8.html(retrievedData.leather);
+            productSpan9.html(retrievedData.woodSpecies);
+            productSpan10.html(retrievedData.woodFinish);
+            productSpan11.html(retrievedData.metalFinish);
+            productSpan12.html(retrievedData.message);
+            productSpan13.html(retrievedData.style);
 
     });
 
