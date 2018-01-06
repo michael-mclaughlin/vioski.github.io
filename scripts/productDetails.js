@@ -9,10 +9,16 @@
                 "width": 71 + '\"',
                 "height": 14.5 + '\"',
                 "depth": 27 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
                 "fabric": "2 yards (standard width, no repeat)",
                 "leather": "40 sq ft (no blemishes, holes or stretch marks)",
                 "woodSpecies": "walnut, flat cut white oak",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 1,
@@ -22,10 +28,16 @@
                 "width": 64 + '\"',
                 "height": 14.5 + '\"',
                 "depth": 24 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
                 "fabric": "3 yards (standard width, no repeat)",
                 "leather": "60 sq ft (no blemishes, holes or stretch marks)",
                 "woodSpecies": "walnut, flat cut white oak",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 2,
@@ -40,9 +52,11 @@
                 "backHeight": 29 + '\"',
                 "fabric": "3.5 yards (standard width, no repeat)",
                 "leather": "NOT AVAILABLE",
-                "woodSpecies": "NOT AVAILABLE",
-                "woodFinish": "NOT AVAILABLE",
-                "metalFinish": "satin chrome"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 3,
@@ -57,9 +71,11 @@
                 "backHeight": 27 + '\"',
                 "fabric": "8 yards (standard width, no repeat)",
                 "leather": "NOT AVAILABLE",
-                "woodSpecies": "NOT AVAILABLE",
-                "woodFinish": "NOT AVAILABLE",
-                "metalFinish": "satin chrome"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 4,
@@ -75,7 +91,10 @@
                 "fabric": '14 yards (group), 7 yards (each chair unit), (standard width, no repeat)',
                 "leather": '250 sq ft (group), 140 sq ft (each chair unit)',
                 "woodSpecies": "walnut, rift cut white oak, macassar ebony (highest quality veneer), zebrawood (highest quality veneer)",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 5,
@@ -93,8 +112,8 @@
                 "woodSpecies": "maple, walnut (legs)",
                 "woodFinish": "matte natural, matte espresso (legs)",
                 "metalFinish": "satin chrome, matte black, matte bronze (swivel x-base)",
-                "styles": "chair available with legs or swivel, matching ottomans with legs or x-base",
-                "message": "contact us for more information"
+                "message": "contact us for more information",
+                "style": "chair available with legs or swivel, matching ottomans with legs or x-base",
             },
             {
                 "index": 6,
@@ -112,8 +131,9 @@
                 "woodSpecies": "maple, walnut legs",
                 "woodFinish": "matte natural, matte espresso (legs)",
                 "metalFinish": "satin chrome, matte black, matte bronze (swivel x-base)",
-                "styles": "chair available with legs or swivel, matching ottomans with legs or x-base",
-                "message": "contact us for more information"
+                "message": "contact us for more information",
+                "style": "chair available with legs or swivel, matching ottomans with legs or x-base"
+
             },
             {
                 "index": 7,
@@ -130,8 +150,10 @@
                 "leather": "30 sq ft (no blemishes, holes or stretch marks)",
                 "woodSpecies": "walnut, flat cut white oak",
                 "woodFinish": "matte natural, matte espresso (legs)",
-                "styles": "available as arm chair, with no arms, as a bar stool",
-                "message": "contact us for more information"
+                "metalFinish": null,
+                "message": "contact us for more information",
+                "style": "available as arm chair, with no arms, as a bar stool",
+
             },
             {
                 "index": 8,
@@ -147,7 +169,10 @@
                 "fabric": "5 yards (standard width, no repeat)",
                 "leather": "NOT AVAILABLE",
                 "woodSpecies": "maple, walnut",
-                "woodFinish": "matte natural, matte espresso (legs)"
+                "woodFinish": "matte natural, matte espresso (legs)",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 9,
@@ -164,8 +189,9 @@
                 "leather": "120 sq ft (no blemishes, holes or stretch marks)",
                 "woodSpecies": "maple, walnut (legs)",
                 "woodFinish": "matte natural, matte espresso (legs)",
-                "ottoman": "matching ottoman available",
-                "message": "contact us for more information"
+                "metalFinish": null,
+                "message": "contact us for more information",
+                "style": "matching ottoman available",
             },
             {
                 "index": 10,
@@ -183,9 +209,8 @@
                 "woodSpecies": "maple, walnut (legs)",
                 "woodFinish": "matte natural, matte espresso (legs)",
                 "metalFinish": "satin chrome, matte black, matte bronze (swivel x-base)",
-                "styles": "available with legs or swivel x-base",
-                "ottoman": "matching ottoman available with legs or swivel x-base",
-                "message": "contact us for more information"
+                "message": "contact us for more information",
+                "style": "available with legs or swivel x-base, matching ottoman available with legs or swivel x-base"
             },
             {
                 "index": 11,
@@ -201,7 +226,10 @@
                 "fabric": "2.5 yards (standard width, no repeat)",
                 "leather": "50 sq ft (no blemishes, holes or stretch marks)",
                 "woodSpecies": "walnut, flat cut white oak",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 12,
@@ -216,7 +244,11 @@
                 "backHeight": 38 + '\"',
                 "fabric": "7 yards (standard width, no repeat)",
                 "leather": "NOT AVAILABLE",
-                "metalFinish": "satin chrome, matte black, matte bronze (swivel x-base)"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome, matte black, matte bronze (swivel x-base)",
+                "message": null,
+                "style": null
             },
             {
                 "index": 13,
@@ -226,9 +258,16 @@
                 "width": 84 + '\"',
                 "height": 28 + '\"',
                 "depth": 16 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "flat cut walnut, quarter cut walnut, rift cut walnut",
                 "woodFinish": "matte natural, matte espresso",
-                "metalFinish": "satin chrome, matte black, matte bronze"
+                "metalFinish": "satin chrome, matte black, matte bronze",
+                "message": null,
+                "style": null
             },
             {
                 "index": 14,
@@ -238,9 +277,16 @@
                 "width": 71 + '\"',
                 "height": 12.5 + '\"',
                 "depth": 25 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "flat cut walnut, quarter cut walnut, rift cut walnut, macassar ebony (highest quality veneer), zebrawood (highest quality veneer)",
                 "woodFinish": "matte natural, matte espresso",
-                "metalFinish": "satin chrome, matte black, matte bronze"
+                "metalFinish": "satin chrome, matte black, matte bronze",
+                "message": null,
+                "style": null
             },
             {
                 "index": 15,
@@ -250,9 +296,16 @@
                 "width": 76 + '\"',
                 "height": 8.75 + '\"',
                 "depth": 15 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "walnut, flat cut walnut, rift cut white oak",
                 "woodFinish": "matte natural, matte espresso",
-                "metalFinish": "satin chrome"
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 16,
@@ -262,9 +315,16 @@
                 "width": 39 + '\"',
                 "height": 23 + '\"',
                 "depth": 18 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "walnut, rift cut white oak",
                 "woodFinish": "matte natural, matte espresso",
-                "metalFinish": "satin chrome"
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 17,
@@ -274,9 +334,16 @@
                 "width": 71 + '\"',
                 "height": 12.5 + '\"',
                 "depth": 25 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "flat cut walnut, quarter cut walnut, rift cut white oak",
                 "woodFinish": "matte natural, matte espresso",
-                "metalFinish": "satin chrome, matte black, matte bronze"
+                "metalFinish": "satin chrome, matte black, matte bronze",
+                "message": null,
+                "style": null
             },
             {
                 "index": 18,
@@ -286,7 +353,15 @@
                 "width": '63" to 87" (adjustable)',
                 "height": 28 + '\"',
                 "depth": 23.5 + '\"',
-                "woodFinish": "veneer, sophisticated in design and quality"
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
+                "woodFinish": "veneer, sophisticated in design and quality",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 19,
@@ -296,8 +371,16 @@
                 "width": 52 + '\"',
                 "height": 14 + '\"',
                 "depth": 35 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "walnut, rift cut white oak",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 20,
@@ -305,9 +388,19 @@
                 "name": "BRENTON TABLE (Round)",
                 "src": "images/brentonRound.jpg",
                 "diameter": '24", 30", 36", 40" or 46"',
+                "width": null,
                 "height": 15 + '\"',
+                "depth": null,
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "walnut, rift cut white oak",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 21,
@@ -317,8 +410,15 @@
                 "width": 13.5 + '\"',
                 "height": 22.5 + '\"',
                 "depth": 13.5 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "walnut, rift cut white oak",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "message": null,
+                "style": null
             },
             {
                 "index": 22,
@@ -328,9 +428,16 @@
                 "width": 26 + '\"',
                 "height": 18 + '\"',
                 "depth": 22 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "flat cut walnut, quarter cut walnut, rift cut white oak, zebrawood (highest quality veneer for waterfall effect)",
                 "woodFinish": "matte natural, matte espresso",
-                "metalFinish": "satin chrome"
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 23,
@@ -340,8 +447,16 @@
                 "width": '32" (upper table), 32" (lower table)',
                 "height": '11.5" (upper table), 9.5" (lower table)',
                 "depth": '36" (upper table), 32" (lower table)',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "walnut (solid), rift cut white oak (solid), macassar ebony (highest quality veneer for waterfall effect), zebrawood (highest quality veneer for waterfall effect)",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 24,
@@ -351,9 +466,16 @@
                 "width": 56 + '\"',
                 "height": 12.5 + '\"',
                 "depth": 36 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "walnut, rift cut white oak",
                 "woodFinish": "matte natural, matte espresso",
-                "metalFinish": "satin chrome"
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 25,
@@ -363,9 +485,16 @@
                 "width": 18 + '\"',
                 "height": 21 + '\"',
                 "depth": 15 + '\"',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
+                "fabric": null,
+                "leather": null,
                 "woodSpecies": "walnut, rift cut white oak",
                 "woodFinish": "matte natural, matte espresso",
-                "metalFinish": "satin chrome"
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 26,
@@ -379,8 +508,12 @@
                 "armHeight": 24 + '\"',
                 "backHeight": 27 + '\"',
                 "fabric": '13.5 yards (70"), 16 yards (78") (standard width, no repeat)',
+                "leather": 'NOT AVAILABLE',
                 "woodSpecies": "walnut, maple (solid)",
                 "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 27,
@@ -395,7 +528,11 @@
                 "backHeight": 27 + '\"',
                 "fabric": '13.5 yards (70"), 16 yards (78") (standard width, no repeat)',
                 "leather": 'NOT AVAILABLE',
-                "metalFinish": "satin chrome"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 28,
@@ -412,7 +549,9 @@
                 "leather": "260 sq ft (no blemishes, holes or stretch marks)",
                 "woodSpecies": "walnut, rift cut white oak",
                 "woodFinish": "matte natural, matte espresso",
-                "metalFinish": "satin chrome"
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 29,
@@ -428,7 +567,10 @@
                 "fabric": "14 yards (standard width, no repeat)",
                 "leather": "280 sq ft (no blemishes, holes or stretch marks)",
                 "woodSpecies": "maple, walnut (base and legs)",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 30,
@@ -443,7 +585,10 @@
                 "fabric": '16 yards (group) 8 yards (sofa) 8 yards (lounge) (standard width, no repeat)',
                 "leather": "NOT AVAILABLE",
                 "woodSpecies": "maple, walnut (legs)",
-                "woodFinish": "matte natural, matte espresso (legs)"
+                "woodFinish": "matte natural, matte espresso (legs)",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 31,
@@ -460,6 +605,7 @@
                 "leather": 'NOT AVAILABLE',
                 "woodSpecies": "maple (legs)",
                 "woodFinish": "matte espresso (legs)",
+                "metalFinish": null,
                 "message": "more configurations available (see tear sheet)",
                 "style": "The Douglas is a tight seat sectional with 3 unique pieces and configurable/modular"
             },
@@ -476,6 +622,9 @@
                 "backHeight": 33 + '\"',
                 "fabric": '18 yards (2pc. group) 11 yards (individual) (standard width, no repeat)',
                 "leather": 'NOT AVAILABLE',
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": null,
                 "message": "more configurations available (see tear sheet)",
                 "style": "The Mitosi is a tight seat sectional. When 5 units are fit together it closes to make a pentagon"
             },
@@ -510,6 +659,8 @@
                 "backHeight": 34 + '\"',
                 "fabric": '22 yards (group) 11 yards (each unit) (standard width, no repeat)',
                 "leather": '44 sq ft (group) 220 sq ft (each unit) (no blemishes, holes or stretch marks)',
+                "woodSpecies": null,
+                "woodFinish": null,
                 "metalFinish": "satin chrome (legs)",
                 "message": "more configurations available (see tear sheet)",
                 "style": "The Nicholas II Sectional has a cushion seat. Available with or without an inset console table."
@@ -522,8 +673,17 @@
                 "width": '103" (group) 64" (sofa) 40" (lounge) 13.5" (table)',
                 "height": '33" (sofa) 33" (lounge) 22.5" (table)',
                 "depth": '69" (group) 40" (sofa) 69" (lounge)',
+                "seatHeight": null,
+                "armHeight": null,
+                "backHeight": null,
                 "fabric": '21 yards (group) 10 yards (sofa) 11 yards (lounge) (standard width, no repeat)',
                 "leather": '420 sq ft (group) 200 sq ft (sofa) 220 sq ft (lounge) (no blemishes, holes or stretch marks)',
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": null,
+                "message": null,
+                "style": null
+
             },
             {
                 "index": 36,
@@ -539,7 +699,10 @@
                 "fabric": '27 yards (group) 17 yards (sofa) 10 yards (loveseat) (standard width, no repeat)',
                 "leather": '540 sq ft (group) 340 sq ft (sofa) 180 sq ft (lounge) (no blemishes, holes or stretch marks)',
                 "woodSpecies": 'flat cut walnut, quarter cut walnut, rift cut white oak (highest quality veneer for a seem-less waterfall look)',
-                "metalFinish": "satin chrome (sofa and loveseat), satin chrome, matte black, matte bronze (console)"
+                "woodFinish": null,
+                "metalFinish": "satin chrome (sofa and loveseat), satin chrome, matte black, matte bronze (console)",
+                "message": null,
+                "style": null
             },
             {
                 "index": 37,
@@ -554,7 +717,11 @@
                 "backHeight": 26.5 + '\"',
                 "fabric": '16 yards (group) 8 yards (each unit) (standard width, no repeat)',
                 "leather": '320 sq ft (group) 160 sq ft (each unit) (no blemishes, holes or stretch marks)',
-                "metalFinish": "satin chrome"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 38,
@@ -564,6 +731,16 @@
                 "width": '63" to 87" (adjustable)',
                 "height": 28 + '\"',
                 "depth": 23.5 + '\"',
+                "seatHeight": 16 + '\"',
+                "armHeight": 22 + '\"',
+                "backHeight": 34 + '\"',
+                "fabric": '16 yards (group) 8 yards (each unit) (standard width, no repeat)',
+                "leather": 'NOT AVAILABLE',
+                "woodSpecies": "maple, walnut (legs)",
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 39,
@@ -578,7 +755,11 @@
                 "backHeight": 27 + '\"',
                 "fabric": '15.5 yards, 16 yards, 17.5 yards (standard width, no repeat)',
                 "leather": 'NOT AVAILABLE',
-                "metalFinish": "satin chrome (base)"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome (base)",
+                "message": null,
+                "style": null
             },
             {
                 "index": 40,
@@ -593,7 +774,11 @@
                 "backHeight": 27 + '\"',
                 "fabric": "16 yards (standard width, no repeat)",
                 "leather": "NOT AVAILABLE",
-                "metalFinish": "satin chrome (base)"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome (base)",
+                "message": null,
+                "style": null
             },
             {
                 "index": 41,
@@ -608,7 +793,11 @@
                 "backHeight": 27 + '\"',
                 "fabric": "11 yards (standard width, no repeat)",
                 "leather": "NOT AVAILABLE",
-                "metalFinish": "satin chrome"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 42,
@@ -624,7 +813,10 @@
                 "fabric": "10 yards (standard width, no repeat)",
                 "leather": "260 sq ft (no blemishes, holes or stretch marks)",
                 "woodSpecies": "maple, walnut (legs)",
-                "woodFinish": "matte natural, matte espresso"
+                "woodFinish": "matte natural, matte espresso",
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 43,
@@ -638,7 +830,12 @@
                 "armHeight": 21.5 + '\"',
                 "backHeight": 27 + '\"',
                 "fabric": '15 yards (84" sofa) 16 yards (98" sofa) (standard width, no repeat)',
-                "leather": '300 sq ft (84" sofa) 320 sq ft (98" sofa) (no blemishes, holes or stretch marks)'
+                "leather": '300 sq ft (84" sofa) 320 sq ft (98" sofa) (no blemishes, holes or stretch marks)',
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": null,
+                "message": null,
+                "style": null
             },
             {
                 "index": 44,
@@ -653,7 +850,11 @@
                 "backHeight": 26.5 + '\"',
                 "fabric": '14.5 yards (105" sofa) 17.5 yards (118" sofa) (standard width, no repeat)',
                 "leather": '290 sq ft (105" sofa) 344 sq ft (118" sofa) (no blemishes, holes or stretch marks)',
-                "metalFinish": "satin chrome"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 45,
@@ -668,7 +869,11 @@
                 "backHeight": 26.5 + '\"',
                 "fabric": '11.5 yards (standard width, no repeat)',
                 "leather": '230 sq ft (no blemishes, holes or stretch marks)',
-                "metalFinish": "satin chrome"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome",
+                "message": null,
+                "style": null
             },
             {
                 "index": 46,
@@ -683,7 +888,11 @@
                 "backHeight": 38 + '\"',
                 "fabric": "10 yards (standard width, no repeat)",
                 "leather": "NOT AVAILABLE",
-                "metalFinish": "satin chrome, matte black, matte bronze (base)"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome, matte black, matte bronze (base)",
+                "message": null,
+                "style": null
             },
             {
                 "index": 47,
@@ -698,7 +907,11 @@
                 "backHeight": 13 + '\"',
                 "fabric": '12 yards (85" sofa) 14 yards (98" sofa), 16 yards (118" sofa) (standard width, no repeat)',
                 "leather": '240 sq ft (85" sofa) 280 sq ft (98" sofa) 320 sq ft (118" sofa) (no blemishes, holes or stretch marks)',
-                "metalFinish": "satin chrome, matte black, matte bronze"
+                "woodSpecies": null,
+                "woodFinish": null,
+                "metalFinish": "satin chrome, matte black, matte bronze",
+                "message": null,
+                "style": null
             }
 
         ]

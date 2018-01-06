@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
     $(function(){
+
         var productName = $('#product-details-header-h1');
         var productSpan1 = $('#product-details-header-span1');
         var productSpan2 = $('#product-details-header-span2');
@@ -20,7 +21,6 @@ $(document).ready(function(){
 
         var retrievedData = JSON.parse(localStorage.getItem("storedData"));
             console.log(retrievedData);
-
             productImage.attr('src', retrievedData.src);
 
             productName.html(retrievedData.name);
@@ -37,7 +37,19 @@ $(document).ready(function(){
             productSpan11.html(retrievedData.metalFinish);
             productSpan12.html(retrievedData.message);
             productSpan13.html(retrievedData.style);
-
     });
 
+//    var productSpan = $('.product-details-header-span');
+//
+//    productSpan.each(function(i, e){
+//        var that = $(this);
+//        console.log(that[6].html());
+//    });
 });
+
+
+
+
+
+
+
