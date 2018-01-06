@@ -1,2 +1,12 @@
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_8BY7q3F7AfCjm2lpyCC&callback=initMap"
-  type="text/javascript"></script>
+
+function initMap() {
+  var usaHome = {lat: 34.1341115, lng: -118.00557800000001};
+  var map = new google.maps.Map(document.getElementById('div-rep-locator'), {
+    zoom: 4,
+    center: usaHome
+  });
+  var marker = new google.maps.Marker({
+    position: usaHome,
+    map: map
+  });
+}
