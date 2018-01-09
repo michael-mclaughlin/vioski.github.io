@@ -10,14 +10,32 @@ function initMap() {
 
   var markers = data.markers;
 
-  $.each(data.markers, function(key, data){
+
+
+  $.each(data.markers, function(key, data) {
     var latLng = new google.maps.LatLng(data.location[0], data.location[1]);
+
+    var contentString = '<div id="div-data" class="div-data">'
+                            + '<h3>' +  data.name + '<br />' +  data.name2 + '</h3>'
+                            + '<div><span class="span-data">' +  data.company + '</span></div>'
+                            + '<div><span class="span-data">' +  data.phone + '</span></div>'
+                            + '<div><span class="span-data">' +  data.phone2 + '</span></div>'
+                            + '<div><a class="dataEmail" href="mailto:'+  data.email +'">' +  data.email + '</a></div>'
+                            + '<div><a class="dataEmail" href="mailto:'+  data.email2 +'">' +  data.email2 + '</a></div>'
+                        '</div>';
+
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString
+    });
 
     var marker = new google.maps.Marker({
         position: latLng,
-        map: map,
-        //icon: icon,
-        title: data.name
+        map: map
     });
+
+    marker.addListener('click', function() {
+      infowindow.open(map, marker);
+    });
+
   });
 }
