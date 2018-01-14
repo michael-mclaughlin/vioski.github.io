@@ -41,13 +41,6 @@ $(document).ready(function(){
             productTearSheetLink.attr('href', retrievedData.tear);
 
     });
-
-//    var productSpan = $('.product-details-header-span');
-//
-//    productSpan.each(function(i, e){
-//        var that = $(this);
-//        console.log(that[6].html());
-//    });
 });
 
 
