@@ -18,7 +18,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/elandBench.pdf"
             },
             {
                 "index": 1,
@@ -37,7 +38,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/metroBench.pdf"
             },
             {
                 "index": 2,
@@ -56,7 +58,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/angelesChair.pdf"
             },
             {
                 "index": 3,
@@ -75,7 +78,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/chicagoIChair.pdf"
             },
             {
                 "index": 4,
@@ -94,7 +98,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/fratelliCT.pdf"
             },
             {
                 "index": 5,
@@ -114,6 +119,7 @@
                 "metalFinish": "satin chrome, matte black, matte bronze (swivel x-base)",
                 "message": "contact us for more information",
                 "style": "chair available with legs or swivel, matching ottomans with legs or x-base",
+                "tear": "tearsheets/louisIChair.pdf"
             },
             {
                 "index": 6,
@@ -132,7 +138,8 @@
                 "woodFinish": "matte natural, matte espresso (legs)",
                 "metalFinish": "satin chrome, matte black, matte bronze (swivel x-base)",
                 "message": "contact us for more information",
-                "style": "chair available with legs or swivel, matching ottomans with legs or x-base"
+                "style": "chair available with legs or swivel, matching ottomans with legs or x-base",
+                "tear": "tearsheets/louisIIChair.pdf"
 
             },
             {
@@ -153,6 +160,7 @@
                 "metalFinish": null,
                 "message": "contact us for more information",
                 "style": "available as arm chair, with no arms, as a bar stool",
+                "tear": "tearsheets/madridChair.pdf"
 
             },
             {
@@ -172,7 +180,8 @@
                 "woodFinish": "matte natural, matte espresso (legs)",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/miloChair.pdf"
             },
             {
                 "index": 9,
@@ -192,6 +201,7 @@
                 "metalFinish": null,
                 "message": "contact us for more information",
                 "style": "matching ottoman available",
+                "tear": "tearsheets/palmsIChair.pdf"
             },
             {
                 "index": 10,
@@ -210,7 +220,8 @@
                 "woodFinish": "matte natural, matte espresso (legs)",
                 "metalFinish": "satin chrome, matte black, matte bronze (swivel x-base)",
                 "message": "contact us for more information",
-                "style": "available with legs or swivel x-base, matching ottoman available with legs or swivel x-base"
+                "style": "available with legs or swivel x-base, matching ottoman available with legs or swivel x-base",
+                "tear": "tearsheets/palmsIIChair.pdf"
             },
             {
                 "index": 11,
@@ -229,7 +240,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/traciChair.pdf"
             },
             {
                 "index": 12,
@@ -248,7 +260,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome, matte black, matte bronze (swivel x-base)",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/tuullaChair.pdf"
             },
             {
                 "index": 13,
@@ -267,7 +280,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": "satin chrome, matte black, matte bronze",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/aidenIIConsole.pdf"
             },
             {
                 "index": 14,
@@ -286,7 +300,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": "satin chrome, matte black, matte bronze",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": ""
             },
             {
                 "index": 15,
@@ -305,7 +320,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/manhattanUnit.pdf"
             },
             {
                 "index": 16,
@@ -324,7 +340,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/nicholasITable.pdf"
             },
             {
                 "index": 17,
@@ -343,7 +360,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": "satin chrome, matte black, matte bronze",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/sheaIIconsole.pdf"
             },
             {
                 "index": 18,
@@ -361,7 +379,8 @@
                 "woodFinish": "veneer, sophisticated in design and quality",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/jamesDesk.pdf"
             },
             {
                 "index": 19,
@@ -380,7 +399,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/brentonTableRec.pdf"
             },
             {
                 "index": 20,
@@ -400,7 +420,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/brentonTableRound.pdf"
             },
             {
                 "index": 21,
@@ -418,7 +439,8 @@
                 "woodSpecies": "walnut, rift cut white oak",
                 "woodFinish": "matte natural, matte espresso",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/salonSide.pdf"
             },
             {
                 "index": 22,
@@ -437,7 +459,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/simoneSide.pdf"
             },
             {
                 "index": 23,
@@ -456,7 +479,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/sottoCoffeeTable.pdf"
             },
             {
                 "index": 24,
@@ -475,7 +499,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/studioCoffeeTable.pdf"
             },
             {
                 "index": 25,
@@ -494,7 +519,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/treIside.pdf"
             },
             {
                 "index": 26,
@@ -513,7 +539,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": " "
             },
             {
                 "index": 27,
@@ -532,7 +559,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/chicagoIDD.pdf"
             },
             {
                 "index": 28,
@@ -551,7 +579,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/coppiaLounge.pdf"
             },
             {
                 "index": 29,
@@ -570,7 +599,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/isolaLounge.pdf"
             },
             {
                 "index": 30,
@@ -588,7 +618,8 @@
                 "woodFinish": "matte natural, matte espresso (legs)",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/brandonSectional.pdf"
             },
             {
                 "index": 31,
@@ -607,7 +638,8 @@
                 "woodFinish": "matte espresso (legs)",
                 "metalFinish": null,
                 "message": "more configurations available (see tear sheet)",
-                "style": "The Douglas is a tight seat sectional with 3 unique pieces and configurable/modular"
+                "style": "The Douglas is a tight seat sectional with 3 unique pieces and configurable/modular",
+                "tear": "tearsheets/douglasSectional.pdf"
             },
             {
                 "index": 32,
@@ -626,7 +658,8 @@
                 "woodFinish": null,
                 "metalFinish": null,
                 "message": "more configurations available (see tear sheet)",
-                "style": "The Mitosi is a tight seat sectional. When 5 units are fit together it closes to make a pentagon"
+                "style": "The Mitosi is a tight seat sectional. When 5 units are fit together it closes to make a pentagon",
+                "tear": "tearsheets/mitosiSectional.pdf"
             },
             {
                 "index": 33,
@@ -644,7 +677,8 @@
                 "woodFinish": "matte natural, matte espresso (legs)",
                 "metalFinish": "satin chrome (sofa and lounge legs, table base)",
                 "message": "more configurations available (see tear sheet)",
-                "style": "The Nicholas I Sectional is a tight seat, has a tight cushion. Available with or without an inset console table."
+                "style": "The Nicholas I Sectional is a tight seat, has a tight cushion. Available with or without an inset console table.",
+                "tear": "tearsheets/nicholasISectional.pdf"
             },
             {
                 "index": 34,
@@ -663,7 +697,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome (legs)",
                 "message": "more configurations available (see tear sheet)",
-                "style": "The Nicholas II Sectional has a cushion seat. Available with or without an inset console table."
+                "style": "The Nicholas II Sectional has a cushion seat. Available with or without an inset console table.",
+                "tear": "tearsheets/nicholasIISectional.pdf"
             },
             {
                 "index": 35,
@@ -682,7 +717,8 @@
                 "woodFinish": null,
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/salonSectional.pdf"
 
             },
             {
@@ -702,7 +738,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome (sofa and loveseat), satin chrome, matte black, matte bronze (console)",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/sheaISectional.pdf"
             },
             {
                 "index": 37,
@@ -721,7 +758,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/treIISectional.pdf"
             },
             {
                 "index": 38,
@@ -740,7 +778,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": " "
             },
             {
                 "index": 39,
@@ -759,7 +798,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome (base)",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/chicagoIsofa.pdf"
             },
             {
                 "index": 40,
@@ -778,7 +818,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome (base)",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/chicagoIISofa.pdf"
             },
             {
                 "index": 41,
@@ -797,7 +838,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/coveSofa.pdf"
             },
             {
                 "index": 42,
@@ -816,7 +858,8 @@
                 "woodFinish": "matte natural, matte espresso",
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/palmsLoveseat.pdf"
             },
             {
                 "index": 43,
@@ -835,7 +878,8 @@
                 "woodFinish": null,
                 "metalFinish": null,
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/salonSofa.pdf"
             },
             {
                 "index": 44,
@@ -854,7 +898,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/treIsofa.pdf"
             },
             {
                 "index": 45,
@@ -873,7 +918,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/treIISofa.pdf"
             },
             {
                 "index": 46,
@@ -892,7 +938,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome, matte black, matte bronze (base)",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/tuullaSofa.pdf"
             },
             {
                 "index": 47,
@@ -911,7 +958,8 @@
                 "woodFinish": null,
                 "metalFinish": "satin chrome, matte black, matte bronze",
                 "message": null,
-                "style": null
+                "style": null,
+                "tear": "tearsheets/williamSofa.pdf"
             }
 
         ]

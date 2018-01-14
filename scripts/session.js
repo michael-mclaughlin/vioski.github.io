@@ -16,7 +16,7 @@ $(document).ready(function(){
         var productSpan11 = $('#product-details-header-span11');
         var productSpan12 = $('#product-details-header-span12');
         var productSpan13 = $('#product-details-header-span13');
-
+        var productTearSheetLink = $('#product-detailed-card-details-share-tear');
         var productImage = $('#product-image-products');
 
         var retrievedData = JSON.parse(localStorage.getItem("storedData"));
@@ -37,6 +37,9 @@ $(document).ready(function(){
             productSpan11.html(retrievedData.metalFinish);
             productSpan12.html(retrievedData.message);
             productSpan13.html(retrievedData.style);
+
+            productTearSheetLink.attr('href', retrievedData.tear);
+
     });
 
 //    var productSpan = $('.product-details-header-span');
