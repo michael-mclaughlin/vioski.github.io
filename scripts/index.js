@@ -1,6 +1,5 @@
 $(document).ready(function(){
     dropDownUl('product-nav-parent-listItem-anchor');
-    hideUlDropdown('header-nav-links');
     activeFilters('nav-filter-links');
     leftMenu('menu-button', 'product-nav');
     scrollToId();
@@ -26,15 +25,6 @@ var dropDownUl = function (className){
             };
     });
 };
-
-var hideUlDropdown = function (className) {
-    var className = className;
-    var link = $('.' + className);
-    $(this).toggleClass('active');
-    if($(this).hasClass('active')){
-        $(this).closest('ul').slideUp('fast');
-    }
-}
 
 var activeFilters = function (className){
     var className = className;
