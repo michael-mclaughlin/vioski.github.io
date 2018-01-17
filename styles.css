@@ -267,6 +267,7 @@ a {
 .furniture-description-text-a {
     margin: auto;
     padding: 10%;
+    white-space: nowrap;
 }
 
 .image-info-text-lightgrey {
@@ -1170,19 +1171,19 @@ input::placeholder {
     .angelesChairPink-image {
         background-size: 70%;
         background-attachment: unset;
-        background-position: 75% 15%;
+        background-position: 75% 7%;
     }
 
     .nicholas-image {
         background-attachment: unset;
-        background-position: center 20%;
+        background-position: center 7%;
         background-size: 90%;
     }
 
     .tuula-image {
         background-size: 60%;
         background-attachment: unset;
-        background-position: center 10%;
+        background-position: center 6%;
     }
 }
 
@@ -1198,6 +1199,10 @@ input::placeholder {
         padding: 10vw;
     }
 
+    .full-width-text {
+        margin-top: 0;
+    }
+
     .furniture-description-container {
         position: absolute;
         width: 100%;
@@ -1208,8 +1213,14 @@ input::placeholder {
 
 
 @media (max-width: 650px) {
+
+    .furniture-sections {
+        flex-direction: column;
+    }
+
     .div-background-white {
         height: 40vh;
+        max-width: 100%;
     }
 
     .image-info-chair,
