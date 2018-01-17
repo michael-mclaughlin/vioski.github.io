@@ -122,12 +122,14 @@ a {
 
 .div-background-white {
     background-color: rgba(255, 255, 255, 1);
-    width: 50vw;
-    height: 50vh;
+    /*width: 50vw;
+    height: 50vh;*/
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     flex-direction: row;
+    flex-grow: 1;
+    max-width: 50%;
 }
 
 .furniture-sections {
@@ -188,12 +190,16 @@ a {
 }
 
 .history-about-text {
-    /*background-color: rgba(51, 51, 51, 1);*/
     background-color: #454545;
     color: #f3f3f3;
-    width: 50vw;
+    max-width: 50%;
+    flex-grow: 1;
     box-sizing: border-box;
-    padding: 6rem;
+    padding: 8%;
+}
+
+.full-width-text {
+    max-width: 100%;
 }
 
 .personalize-about-text {
@@ -407,7 +413,9 @@ a {
 
 .furniture-description-container {
     display: flex;
-    width: 50vw;
+    flex-grow: 1;
+    max-width: 50%;
+    position: initial;
 }
 
 .commercial-products {
@@ -997,7 +1005,7 @@ input::placeholder {
     }
 
     .tuula-image {
-        background-size: 60%;
+        background-size: 45%;
         background-position: right center;
 
     }
@@ -1172,6 +1180,7 @@ input::placeholder {
     }
 
     .tuula-image {
+        background-size: 60%;
         background-attachment: unset;
         background-position: center 10%;
     }
@@ -1184,7 +1193,7 @@ input::placeholder {
 @media (max-width: 700px) {
     .history-about-text {
         margin-top: 50vh;
-        width: 100%;
+        max-width: 100%;
         position: relative;
         padding: 10vw;
     }
@@ -1193,6 +1202,7 @@ input::placeholder {
         position: absolute;
         width: 100%;
         height: 50%;
+        max-width: 100%;
     }
 }
 
