@@ -12,6 +12,12 @@ $(document).ready(function(){
     $(function(){
         var form = $('#contact-form-vioski');
         var formSpan = $('#formMessagesSpan');
+//
+//        $('input[type=checkbox]').each(function () {
+//            var that = $(this);
+//            var checkboxIsChecked = (this.checked ? "1" : "0");
+//            if
+//        });
 
         $(form).submit(function(event) {
             event.preventDefault();

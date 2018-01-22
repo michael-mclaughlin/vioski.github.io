@@ -802,7 +802,7 @@ a {
 /* Contact form */
 
 .footer-child-div {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     max-width: 30rem;
     flex-grow: 1;
     margin: 2%;
@@ -888,6 +888,14 @@ input::placeholder {
 
 .checkbox-container {
     padding: .5rem 1rem 1.25rem;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
 }
 
 .control {
