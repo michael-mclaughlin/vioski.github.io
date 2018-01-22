@@ -7,6 +7,33 @@ $(document).ready(function(){
     filterProducts();
     mapProductDetails();
     mapFilterCollection();
+
+
+    $(function(){
+        var form = $('#contact-form-vioski');
+        var formSpan = $('#formMessagesSpan');
+
+        $(form).submit(function(event) {
+            event.preventDefault();
+            var formData = $(form).serialize();
+
+            $.ajax({
+                type: 'POST',
+                url: $(form).attr('action'),
+                data: formData
+            })
+            .done(function(response){
+                $(formSpan).addClass('success');
+                $(formSpan).removeClass('error');
+                $(formSpan).text(response);
+            })
+            .fail(function(response){
+                $(formSpan).addClass('error');
+                $(formSpan).removeClass('success')
+                $(formSpan).text('Oops! Try again.');
+            });
+        });
+    });
 });
 
 var dropDownUl = function (className){

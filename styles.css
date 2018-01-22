@@ -672,19 +672,27 @@ a {
 }
 
 .contact-section {
-    flex-direction: column;
+
     background-color: rgba(51, 51, 51, 1);
     overflow: hidden;
     padding-bottom: 5rem;
 }
 
-.contact-form-container {
+.footer-child-div-parent {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 95%;
     margin: 0 auto;
-    border-radius: 4px;
-    width: 77vw;
-    background-color: #fff;
-    padding: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.contact-form-container {
+    /*display: flex;*/
+    /*margin: 0 auto;*/
+    /*border-radius: 4px;*/
+    /*background-color: #fff;*/
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .contact-form {
@@ -710,6 +718,7 @@ a {
     list-style-type: none;
     position: fixed;
     top: 10.80rem;
+    z-index: 2;
 }
 
 .nav-filter-listitem {
@@ -791,52 +800,61 @@ a {
 
 
 /* Contact form */
+
+.footer-child-div {
+    border: 1px solid red;
+    max-width: 30rem;
+    flex-grow: 1;
+    margin: 2%;
+}
+
 .contact-header,
 .contact-label {
     font-size: 1.25rem;
 }
 
 .contact-label {
-    font-weight: 300;
-    color: #999999;
+    font-weight: 100;
+    color: #f3f3f3;
+    letter-spacing: 1.25px;
+    font-size: 1rem;
 }
 
 .contact-header {
     font-weight: 200;
     color: #f3f3f3;
-    margin: 4rem auto;
     letter-spacing: 1px;
     text-align: center;
 }
 
 .contact-form-header1 {
-    color: #999999;
+    margin: 4% 0;
+    font-size: 1.5rem;
 }
 
 input[type=text],
 input[type=email],
 input[type=tel],
 textarea {
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #555555;
     border-left: none;
     border-right: none;
     border-top: none;
-    border-radius: 2px;
-    font-size: 1.25rem;
-    padding: .5rem 1rem;
+    font-size: 1rem;
+    padding: .15rem 1rem;
     outline: none;
     font-weight: 300;
     width: 100%;
     box-sizing: border-box;
     background: none;
-    margin: 1rem 0;
-    color: #76afb0;
+    margin: .5rem 0;
+    color: #ffa2ab;
 }
 
 textarea {
-    height: 14rem;
-    resize: none;
-    border: 1px solid #e6e6e6;
+    height: 6rem;
+    /*resize: none;*/
+    border: 1px solid #555555;
 }
 
 input[type=radio] {
@@ -879,6 +897,9 @@ input::placeholder {
 	margin-bottom: 15px;
 	padding-left: 30px;
 	cursor: pointer;
+	color: #f3f3f3;
+	letter-spacing: 1.25px;
+	font-weight: 100;
 }
 
 .control input {
@@ -903,25 +924,20 @@ input::placeholder {
 /* Hover and focus states */
 .control:hover input ~ .control__indicator,
 .control input:focus ~ .control__indicator {
-	background: #ccc;
+	background: #ffa2ab;
 }
 
 /* Checked state */
 .control input:checked ~ .control__indicator {
-	background: #76afb0;
+	background: rgba(240,90,143, 1);
 }
 
 /* Hover state whilst checked */
 .control:hover input:not([disabled]):checked ~ .control__indicator,
 .control input:checked:focus ~ .control__indicator {
-	background: #0e647d;
-}
+	background: rgba(240,90,143, 1);
 
-/* Disabled state */
-.control input:disabled ~ .control__indicator {
-	pointer-events: none;
-	opacity: .6;
-	background: #e6e6e6;
+	/*background: #0e647d;*/
 }
 
 /* Check mark */
@@ -945,11 +961,6 @@ input::placeholder {
 	transform: rotate(45deg);
 	border: solid #fff;
 	border-width: 0 2px 2px 0;
-}
-
-/* Disabled tick colour */
-.control--checkbox input:disabled ~ .control__indicator:after {
-	border-color: #7b7b7b;
 }
 
 /* Radio button inner circle */

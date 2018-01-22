@@ -55,76 +55,86 @@
     </section>
 <!--begin footer-->
 <footer id="contact-section" class="contact-section">
-    <h1 class="contact-header">CONTACT</h1>
-    <form id="contact-form-container" class="contact-form-container" action="POST">
-        <table id="contact-form" class="contact-form">
-            <tr>
-                <td><h1 id="contact-header1" class="contact-header contact-form-header1">What type of business are you?</h1></td>
-            </tr>
-            <tr>
-                <td class="contact-td checkbox-container">
-                    <!--<h1 id="contact-header1" class="contact-header contact-form-header1">What are you?</h1>-->
-                    <label class="control control--checkbox">Commercial Representative
-                        <input type="checkbox" name="business-type" value="commercial-representative" checked="checked"/>
-                        <span class="control__indicator"></span>
-                    </label>
-                    <label class="control control--checkbox">Commercial Dealer
-                        <input type="checkbox" name="business-type" value="commercial-dealer"/>
-                        <span class="control__indicator"></span>
-                    </label>
-                    <label class="control control--checkbox">Architectural and Design Firm
-                        <input type="checkbox" name="business-type" value="architectural-design-firm" />
-                        <span class="control__indicator"></span>
-                    </label>
-                    <label class="control control--checkbox">End Client
-                        <input type="checkbox" name="business-type" value="end-client"/>
-                        <span class="control__indicator"></span>
-                    </label>
-                </td>
-            </tr>
-            <tr>
-                <td class="contact-td input-container">
-                    <label for="name-field" id="name-field-label" class="contact-label name-field-label">What's your name?</label>
-                    <input type="text" name="name" id="name-field" class="input-field name-field">
-                </td>
-            </tr>
-            <tr>
-                <td class="contact-td input-container">
-                    <label for="company-name-field" id="company-name-field-label" class="contact-label company-name-field-label">What's your company named?</label>
-                    <input type="text" name="company-name" id="company-name-field" class="input-field company-name-field">
-                </td>
-            </tr>
-            <tr>
-                <td class="contact-td input-container">
-                    <label for="email-field" id="email-field-label" class="contact-label email-field-label">What's your email?</label>
-                    <input type="email" name="email" id="email-field" class="input-field email-field">
-                </td>
-            </tr>
-            <tr>
-                <td class="contact-td input-container">
-                    <label for="phone-number-field" id="phone-number-field-label" class="contact-label phone-number-field-label">What's your phone number?</label>
-                    <input type="tel" name="phone-number" id="phone-number-field" class="input-field phone-number-field" placeholder="xxx-xxx-xxxx">
-                </td>
-            </tr>
-            <tr>
-                <td class="contact-td input-container">
-                    <label for="subject-field" id="subject-field-label" class="contact-label subject-field-label">What would you like to talk about?</label>
-                    <input type="text" name="subject" id="subject-field" class="input-field subject-field">
-                </td>
-            </tr>
-            <tr>
-                <td class="contact-td input-container">
-                    <label for="message-field" id="message-field-label" class="contact-label message-field-label">Leave some details and we'll get back to you soon.</label>
-                    <textarea id="message-field" class="input-field message-field"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" name="submit-form" id="submit-form-button" class="submit-form-button" value="Submit" placeholder="xxx-xxx-xxxx">
-                </td>
-            </tr>
-        </table>
-    </form>
+    <h1 id="contact-header" class="contact-header contact-form-header1">WE WOULD LOVE TO WORK WITH YOU!</h1>
+    <div class="footer-child-div-parent">
+        <div class="footer-child-div">
+            <form id="contact-form-vioski" class="contact-form-container" action="form.php" method="POST" enctype="multipart/form-data">
+                <span id="formMessagesSpan"></span>
+                <table id="contact-form" class="contact-form">
+                    <tr>
+                        <h1 id="who-field-label" class="contact-label name-field-label">Who are you?</h1>
+                    </tr>
+                    <tr>
+                        <td class="contact-td checkbox-container">
+                            <label class="control control--checkbox">Commercial Representative
+                                <input type="checkbox" name="business-type" value="commercial-representative" checked="checked"/>
+                                <span class="control__indicator"></span>
+                            </label>
+                            <label class="control control--checkbox">Commercial Dealer
+                                <input type="checkbox" name="business-type" value="commercial-dealer"/>
+                                <span class="control__indicator"></span>
+                            </label>
+                            <label class="control control--checkbox">Architectural and Design Firm
+                                <input type="checkbox" name="business-type" value="architectural-design-firm" />
+                                <span class="control__indicator"></span>
+                            </label>
+                            <label class="control control--checkbox">End Client
+                                <input type="checkbox" name="business-type" value="end-client"/>
+                                <span class="control__indicator"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="contact-td input-container">
+                            <label for="name" id="name-field-label" class="contact-label name-field-label">What's your name?</label>
+                            <input type="text" name="name" id="name" class="input-field name-field">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="contact-td input-container">
+                            <label for="company" id="company-name-field-label" class="contact-label company-name-field-label">What's your company named?</label>
+                            <input type="text" name="company" id="company" class="input-field company-name-field">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="contact-td input-container">
+                            <label for="email" id="email-field-label" class="contact-label email-field-label">What's your email?</label>
+                            <input type="email" name="email" id="email" class="input-field email-field">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="contact-td input-container">
+                            <label for="phone" id="phone-number-field-label" class="contact-label phone-number-field-label">What's your phone number?</label>
+                            <input type="tel" name="phone" id="phone" class="input-field phone-number-field" placeholder="xxx-xxx-xxxx">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="contact-td input-container">
+                            <label for="subject" id="subject-field-label" class="contact-label subject-field-label">What would you like to talk about?</label>
+                            <input type="text" name="subject" id="subject" class="input-field subject-field">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="contact-td input-container">
+                            <label for="message" id="message-field-label" class="contact-label message-field-label">Leave some details and we'll get back to you soon.</label>
+                            <textarea id="message" name="message" class="input-field message-field"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit-form" id="submit-form-button" class="submit-form-button" value="Submit" placeholder="xxx-xxx-xxxx">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="footer-child-div">
+            <h1>this is a div</h1>
+        </div>
+        <div class="footer-child-div">
+            <h1>this is a div</h1>
+        </div>
+    </div>
 </footer>
 <!--end-->
 <script type="application/x-javascript" src="scripts/productDetails.js"></script>
