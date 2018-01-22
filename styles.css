@@ -405,7 +405,7 @@ a {
 }
 
 .about-description-h1-dark {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     display: inline-block;
     margin: 0 .5rem 0 0;
     font-weight: 200;
@@ -422,7 +422,6 @@ a {
 .commercial-products {
     flex-wrap: wrap;
     justify-content: center;
-   /* max-width: 80vw; */
     margin: 0 auto 5rem;
 }
 
@@ -586,21 +585,6 @@ a {
     color: #ffa2ab;
 }
 
-/*.product-nav-parent-listItem-anchor {
-    display: block;
-    padding: 1rem 1rem .5rem 1rem;
-    border-bottom: 2px solid rgba(255, 216, 236, 0);
-    -webkit-transition: .25s ease-out;
-    -moz-transition: .25s ease-out;
-    -o-transition: .25s ease-out;
-    transition: .25s ease-out;
-}*/
-
-/*.product-nav-parent-listItem-anchor:hover {
-    border-bottom: 2px solid #ffa2ab;
-    color: #ffa2ab;
-}*/
-
 .nav-dropdown {
     padding: inherit;
     position: absolute;
@@ -690,7 +674,6 @@ a {
 .contact-section {
     flex-direction: column;
     background-color: rgba(51, 51, 51, 1);
-    /*background-color: rgba(243,243,243, 1);*/
     overflow: hidden;
     padding-bottom: 5rem;
 }
@@ -763,6 +746,36 @@ a {
 .nav-filter-links-active {
     border-bottom: 2px solid #ffa2ab;
     color: #ffa2ab;
+}
+
+.about-us-details {
+    margin-top: 12rem;
+    background-color: #454545;
+    color: #ffffff;
+
+}
+
+.about-us-details-div {
+    border: 1px solid red;
+    background-color: #454545;
+    color: #ffffff;
+    display: flex;
+}
+
+.about-us-details-div-image-container {
+    width: 100%;
+}
+
+.about-us-details-div-h1 {
+    margin: auto;
+    font-weight: 100;
+    font-size: 1.25rem;
+    letter-spacing: 1.25px;
+    padding: 5%;
+}
+
+.about-us-details-div-image {
+    max-width: 100%;
 }
 
 /* Google maps styles */
@@ -1149,6 +1162,9 @@ input::placeholder {
         margin-top: 4.5rem;
     }
 
+    .about-us-details {
+        margin-top: 5rem;
+    }
     /* end google maps styles */
 }
 
@@ -1234,6 +1250,10 @@ input::placeholder {
 @media (max-width: 500px) {
     .history-about-text {
         margin-top: 50vh;
+    }
+
+    .full-width-text {
+        margin-top: 0;
     }
 
    .image-info-commercial {

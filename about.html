@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="assets/vioski-favicon.png"/>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="fontAwesome/css/font-awesome.css" />
-    <title>Vioski Rep Locator</title>
+    <title>Vioski About Us</title>
 </head>
 <body>
 <!--begin nav-->
@@ -38,17 +38,21 @@
             <a href="#contact-section">Contact</a>
         </li>
         <li class="product-nav-parent-listItem">
-            <a href="about.html">About Us</a>
+            <a href="locator.html" target="_blank">Rep Locator</a>
         </li>
     </ul>
     <h1 class="header-h1"><a class="header-h1-anchor" href="index.html">VIOSKI</a></h1>
     <h2 class="light-background-h2">NEW-CENTURY MODERN </h2>
 </nav>
-<section id="section-rep-locator" class="section-map-container">
-    <div id="div-rep-locator" class="div-map">
-
-    </div>
-</section>
+    <section id="about-us-details" class="about-us-details">
+        <h1 class="about-us-details-div-h1">“I’m inspired by art, beauty and nature — the sensuality of life. Mid-century was my inspiration but I wanted to bring it forward into the new-century. All my designs are completely functional, comfortable and inspired by the natural world. Every piece is fully customizable and handcrafted to the highest quality standard.”</h1>
+        <!--<div class="about-us-details-div">-->
+            <!--<h1 class="about-us-details-div-h1">“I’m inspired by art, beauty and nature — the sensuality of life. Mid-century was my inspiration but I wanted to bring it forward into the new-century. All my designs are completely functional, comfortable and inspired by the natural world. Every piece is fully customizable and handcrafted to the highest quality standard.”</h1>-->
+        <!--</div>-->
+        <div class="about-us-details-div-image-container">
+            <img class="about-us-details-div-image" src="images/jeffHeadshot.jpg">
+        </div>
+    </section>
 <!--begin footer-->
 <footer id="contact-section" class="contact-section">
     <h1 class="contact-header">CONTACT</h1>
@@ -123,10 +127,8 @@
     </form>
 </footer>
 <!--end-->
-
-<script type="application/x-javascript" src="scripts/gkey.js"></script>
-<script type="application/x-javascript" src="scripts/reps.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwN1NYt8Vv2kjxYmlrkZsJx5W_QzzrfUo&callback=initMap"></script>
-
+<script type="application/x-javascript" src="scripts/productDetails.js"></script>
+<script type="application/x-javascript" src="scripts/dynamicFilter.js"></script>
+<script type="application/x-javascript" src="scripts/session.js"></script>
 </body>
 </html>
