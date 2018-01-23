@@ -31,12 +31,12 @@ $(document).ready(function(){
             .done(function(response){
                 $(formSpan).addClass('success');
                 $(formSpan).removeClass('error');
-                $(formSpan).text(response);
+                $(formSpan).text('Thank you! We\'ll contact you soon!');
             })
             .fail(function(response){
                 $(formSpan).addClass('error');
                 $(formSpan).removeClass('success')
-                $(formSpan).text('Oops! Try again.');
+                $(formSpan).text('Oops! Pleas try again.');
             });
         });
     });

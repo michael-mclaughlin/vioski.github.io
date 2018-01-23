@@ -145,6 +145,26 @@ a {
     transition: .5s ease-out;
 }
 
+.traci {
+    background-image: url('images/traciChairAutumn08.jpg');
+    background-size: 60%;
+}
+
+.williamSofa {
+    background-image: url('assets/williamShadow.png');
+    background-size: 70%;
+}
+
+.brentonTableRec {
+    background-image: url('assets/brentonTableRectangularShadow.png');
+    background-size: 70%;
+}
+
+.miloChair {
+    background-image: url('assets/miloShadow.png');
+    background-size: 70%;
+}
+
 .image-info-chair,
 .image-info-loveseat,
 .image-info-console,
@@ -673,7 +693,7 @@ a {
 
 .contact-section {
 
-    background-color: rgba(51, 51, 51, 1);
+    background-color: rgba(21, 21, 21, 1);
     overflow: hidden;
     padding-bottom: 5rem;
 }
@@ -682,7 +702,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
     justify-content: space-evenly;
 }
@@ -718,7 +738,7 @@ a {
     list-style-type: none;
     position: fixed;
     top: 10.80rem;
-    z-index: 2;
+    z-index: 1;
 }
 
 .nav-filter-listitem {
@@ -761,7 +781,6 @@ a {
     margin-top: 12rem;
     background-color: #454545;
     color: #ffffff;
-
 }
 
 .about-us-details-div {
@@ -771,22 +790,54 @@ a {
     display: flex;
 }
 
+.about-us-details-div--container {
+    max-width: 60%;
+    flex-grow: 1;
+    padding: 2.5% 1.5%;
+}
+
 .about-us-details-div-image-container {
-    width: 100%;
+    max-width: 40%;
+    flex-grow: 1;
 }
 
 .about-us-details-div-h1 {
-    margin: auto;
+    /*margin: auto;*/
     font-weight: 100;
     font-size: 1.25rem;
     letter-spacing: 1.25px;
-    padding: 5%;
+    /*padding: 2.5%;*/
 }
 
 .about-us-details-div-image {
     max-width: 100%;
 }
 
+.blockquote-about-jeff {
+    text-align: right;
+    margin-bottom: 3rem;
+}
+
+.jeff-quote {
+    color: #ffa2ab;
+}
+
+address {
+    color: #f3f3f3;
+    padding: 2.5% 5%;
+}
+
+.address-email-link {
+    color: #ffa2ab;
+    transition: ease-in-out .25s;
+    -o-transition: ease-in-out .25s;
+    -webkit-transition: ease-in-out .25s;
+    -moz-transition: ease-in-out .25s;
+}
+
+.address-email-link:hover {
+    color: rgba(240,90,143, 1);
+}
 /* Google maps styles */
 .div-map {
     width: 100%;
@@ -802,9 +853,12 @@ a {
 /* Contact form */
 
 .footer-child-div {
-    /*border: 1px solid red;*/
+    border: 1px solid #555555;
+    background-color: rgba(51, 51, 51, .5);
+    border-radius: 4px;
     max-width: 30rem;
     flex-grow: 1;
+    padding: 2%;
     margin: 2%;
 }
 
@@ -828,7 +882,7 @@ a {
 }
 
 .contact-form-header1 {
-    margin: 4% 0;
+    margin: 6% 0;
     font-size: 1.5rem;
 }
 
@@ -1155,7 +1209,7 @@ input::placeholder {
         margin: 0;
         padding: 0 1rem;
         background-color: rgba(255, 255, 255, 1);
-        z-index: 1;
+        z-index: 2;
     }
 
     .nav-dropdown {
@@ -1183,7 +1237,14 @@ input::placeholder {
 
     .about-us-details {
         margin-top: 5rem;
+        flex-direction: column-reverse;
     }
+
+    .about-us-details-div--container,
+    .about-us-details-div-image-container {
+        max-width: 100%;
+    }
+
     /* end google maps styles */
 }
 
