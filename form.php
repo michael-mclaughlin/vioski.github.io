@@ -24,7 +24,7 @@
             exit;
         }
 
-        $recipient = "michaelmclaughlindesigns@gmail.com";
+        $recipient = "info@vioski.com";
 
         $subject = "$subject";
 
