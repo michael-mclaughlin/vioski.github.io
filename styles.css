@@ -165,6 +165,10 @@ a {
     background-size: 70%;
 }
 
+.homepage-links {
+    margin: auto;
+}
+
 .image-info-chair,
 .image-info-loveseat,
 .image-info-console,

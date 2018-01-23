@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     $(function(){
 
         var productName = $('#product-details-header-h1');
@@ -21,6 +20,7 @@ $(document).ready(function(){
 
         var retrievedData = JSON.parse(localStorage.getItem("storedData"));
             console.log(retrievedData);
+
             productImage.attr('src', retrievedData.src);
 
             productName.html(retrievedData.name);
@@ -40,6 +40,7 @@ $(document).ready(function(){
 
             productTearSheetLink.attr('href', retrievedData.tear);
 
+            localStorage.clear();
     });
 });
 

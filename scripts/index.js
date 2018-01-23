@@ -7,6 +7,7 @@ $(document).ready(function(){
     filterProducts();
     mapProductDetails();
     mapFilterCollection();
+    mapHomepageLinks();
 
 
     $(function(){
@@ -203,6 +204,7 @@ var mapProductDetails = function () {
     var cardsProductsLinks = $('.cards-products-links');
     var cplArray = cardsProductsLinks.map(function(index, elem){
         var that = $(this);
+
         that.on('click', function(){
             var dataProductDetailsMap = data.productDetails.map(function(index, elem) {
                 var that = $(this);
@@ -225,11 +227,28 @@ var mapFilterCollection = function (){
             var dataType = that.attr('data-type');
             var storedLinkData = dataType;
                 localStorage.setItem('storedLinkData', JSON.stringify(storedLinkData));
-                console.log(storedLinkData);
             return;
         });
     }).get();
     colArray
+};
+
+var mapHomepageLinks = function (){
+    var filterLinks = $('.homepage-links');
+
+    var homeLinkArray = filterLinks.map(function(index, elem){
+        var that = $(this);
+            that.on('click', function(index, event){
+                var that = $(this);
+                var dataType = that.attr('data-type');
+                var storedHomeLinkData = dataType;
+
+                    localStorage.setItem('storedHomeLinkData', JSON.stringify(storedHomeLinkData));
+                    console.log(storedHomeLinkData);
+                return;
+            });
+    }).get();
+    homeLinkArray
 };
 
 
