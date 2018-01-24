@@ -373,33 +373,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//data.productDetails.map(function(index, elem) {
-//                var that = $(this);
-//                return index;
-//            });

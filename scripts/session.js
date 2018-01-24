@@ -39,8 +39,6 @@ $(document).ready(function(){
             productSpan13.html(retrievedData.style);
 
             productTearSheetLink.attr('href', retrievedData.tear);
-
-            localStorage.clear();
     });
 });
 
