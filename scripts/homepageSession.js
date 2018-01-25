@@ -80,7 +80,7 @@
                     productTearSheetLink.attr('href', productData[13].tear);
                     break;
 
-                case 'coppoiaLounge':
+                case 'coppiaLounge':
                     productImage.attr('src', productData[28].src);
                     productName.html(productData[28].name);
                     productSpan1.html(productData[28].width);

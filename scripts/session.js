@@ -40,6 +40,11 @@ $(document).ready(function(){
 
             productTearSheetLink.attr('href', retrievedData.tear);
     });
+
+    $('.header-h1-anchor').on('click', function(){
+        localStorage.clear();
+    })
+
 });
 
 

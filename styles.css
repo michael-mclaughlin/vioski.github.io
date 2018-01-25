@@ -773,11 +773,9 @@ a {
 }
 
 .about-us-details-div-h1 {
-    /*margin: auto;*/
     font-weight: 100;
-    font-size: 1.25rem;
+    font-size: 2rem;
     letter-spacing: 1.25px;
-    /*padding: 2.5%;*/
 }
 
 .about-us-details-div-image {
@@ -796,6 +794,7 @@ a {
 address {
     color: #f3f3f3;
     padding: 2.5% 5%;
+    font-style: normal;
 }
 
 .address-email-link {

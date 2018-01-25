@@ -16,7 +16,7 @@ function initMap() {
     var latLng = new google.maps.LatLng(data.location[0], data.location[1]);
 
     var contentString = '<div id="div-data" class="div-data">'
-                            + '<h3>' +  data.name + '<br />' +  data.name2 + '</h3>'
+                            + '<strong>' +  data.name + '<br />' +  data.name2 + '</strong>'
                             + '<div><span class="span-data">' +  data.company + '</span></div>'
                             + '<div><span class="span-data">' +  data.phone + '</span></div>'
                             + '<div><span class="span-data">' +  data.phone2 + '</span></div>'
