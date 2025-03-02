@@ -18,13 +18,6 @@ $(document).ready(function () {
                 anchor.append(thumbnail);
                 imageContainer.append(anchor);
                 $('.thumbnailAnchor').first().addClass('active');
-                // if($('.thumbnailAnchor').first().hasClass('active')){
-                //     // $('.thumbnailAnchor').removeClass('active');
-                //     // localStorage.setItem('activeLinkId', item.name + index);
-                //     // localStorage.setItem('item', JSON.stringify(item));
-                //     $(this).addClass('active');
-                //     productImage.attr('src', thumbnail);
-                // }
                 anchor.on('click', function () {
                     $('.thumbnailAnchor').first().removeClass('active');
                     $('.thumbnailAnchor').removeClass('active');
