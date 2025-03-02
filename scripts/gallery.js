@@ -9,15 +9,24 @@ $(document).ready(function () {
             const imageContainer = $('#product-detailed-card-details-gallery');
             const productImage = $('#gallery-grid-image');
             const activeLinkId = localStorage.getItem('activeLinkId');
+            const theItem = JSON.parse(localStorage.getItem('item'));
+            console.log('item', theItem);
             $.each(dataProductsMap, function (index, item) {
                 let imgElement = $("<img>");
                 const anchor = $("<a></a>:eq(0)").attr({ class: "thumbnailAnchor", id: item.name + index, href: 'gallery.html' });
                 const thumbnail = imgElement.attr({ src: item.src, alt: item.alt, class: "thumbnailImage ", id: item.name + index });
                 anchor.append(thumbnail);
                 imageContainer.append(anchor);
-                
+                $('.thumbnailAnchor').first().addClass('active');
+                // if($('.thumbnailAnchor').first().hasClass('active')){
+                //     // $('.thumbnailAnchor').removeClass('active');
+                //     // localStorage.setItem('activeLinkId', item.name + index);
+                //     // localStorage.setItem('item', JSON.stringify(item));
+                //     $(this).addClass('active');
+                //     productImage.attr('src', thumbnail);
+                // }
                 anchor.on('click', function () {
-                    
+                    $('.thumbnailAnchor').first().removeClass('active');
                     $('.thumbnailAnchor').removeClass('active');
                     localStorage.setItem('activeLinkId', item.name + index);
                     localStorage.setItem('item', JSON.stringify(item));
@@ -25,7 +34,7 @@ $(document).ready(function () {
                     productImage.attr('src', item.src);
                 });
                 if (activeLinkId) {
-                    $('.gallery-pics').removeClass('active');
+                    $('.thumbnailAnchor').first().removeClass('active');
                     $('a[id="' + activeLinkId + '"]').addClass('active');
                 }
             });
