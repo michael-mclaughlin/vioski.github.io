@@ -9,11 +9,11 @@
     <link rel="icon" type="image/png" href="assets/vioski-favicon.png"/>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="fontAwesome/css/font-awesome.css" />
-    <title>Vioski Products</title>
+    <title>Vioski Products Gallery</title>
 </head>
 <body>
 <!--begin nav-->
-<nav id="main-navigation" class="main-navigation non-home-nav">
+<nav id="main-navigation" class="main-navigation non-home-nav gallery-nav">
     <a id="menu-button" class="menu-button"><span class="dots"></span><span class="dots"></span><span class="dots"></span></a>
     <ul class="product-nav">
         <li class="product-nav-parent-listItem title-list-item">
@@ -41,18 +41,23 @@
             <a href="about.html">About Us</a>
         </li>
         <li class="product-nav-parent-listItem">
-            <a href="gallery.html">Gallery</a>
-        </li>
-        <li class="product-nav-parent-listItem">
             <a href="locator.html" target="_blank">Rep Locator</a>
         </li>
     </ul>
     <h1 class="header-h1"><a class="header-h1-anchor" href="index.html">VIOSKI</a></h1>
     <h2 class="light-background-h2">NEW-CENTURY MODERN </h2>
+    <h3 class="collection-header">GALLERY</h3>
+    <div class="thumbnail-container">
+        <div id="product-detailed-card-details-gallery" class="product-detailed-card-details product-detailed-card-details-gallery">    
+        </div>
+    </div>
 </nav>
-    <section id="products-detailed" class="products-detailed">
-        <div class="product-detailed-card benches">
-            <img id="product-image-products" class="product-detailed-card-images" src="">
+    <section id="products-detailed" class="products-detailed products-detailed-gallery">
+        
+        
+        <div id="products-links-container" class="product-detailed-card products-details-card-gallery">
+            <img id="gallery-grid-image" class="product-detailed-card-images gallery-display-img" src="" alt="">
+            
         </div>
         <div id="product-detailed-card-details" class="product-detailed-card-details">
             <h1 id="product-details-header-h1" class="product-details-header-h1"></h1>
@@ -79,14 +84,12 @@
                 <a class="product-detailed-card-details-share-social-media socialMedia-footer" href="http://instagram.com/vioski.furniture" target="_blank"><i class="fa fa-instagram socialMedia" aria-hidden="true"></i></a>
             </div>
         </div>
-
     </section>
 <!--begin footer-->
 <footer id="contact-section" class="contact-section">
     <h2 id="contact-header" class="contact-header contact-form-header1">WE WOULD LOVE TO WORK WITH YOU!</h2>
 
     <div class="footer-container-div">
-        
         <div class="footer-child-div-parent">
             <div class="footer-child-div">
                 <address>
@@ -111,7 +114,6 @@
 <!--end-->
 <script type="application/x-javascript" src="scripts/productDetails.js"></script>
 <script type="application/x-javascript" src="scripts/dynamicFilter.js"></script>
-<script type="application/x-javascript" src="scripts/homepageSession.js"></script>
-<script type="application/x-javascript" src="scripts/session.js"></script>
+<script type="application/x-javascript" src="scripts/gallery.js"></script>
 </body>
 </html>

@@ -122,8 +122,6 @@ a {
 
 .div-background-white {
     background-color: rgba(255, 255, 255, 1);
-    /*width: 50vw;
-    height: 50vh;*/
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -138,7 +136,7 @@ a {
 
 .tuula {
     background-image: url('assets/tuulaGreenShadow.png');
-    background-size: 50%;
+    background-size: 14vw;
     -webkit-transition: .5s ease-out;
     -moz-transition: .5s ease-out;
     -o-transition: .5s ease-out;
@@ -489,10 +487,15 @@ a {
     /*background-color: #333;*/
 }
 
+.products-detailed-gallery {
+    margin-top: 16.25rem;
+}
+
 .product-detailed-card {
     background-color: #fff;
-    /*width: 50%;*/
-    width: 70vw;
+    width: 90%;
+    /* width: 90vw; */
+    /* display: flex; */
 }
 
 .product-detailed-card-images {
@@ -709,7 +712,7 @@ a {
     text-decoration: none;
     list-style-type: none;
     position: fixed;
-    top: 10.80rem;
+    top: 10.70rem;
     z-index: 1;
 }
 
@@ -855,9 +858,7 @@ address {
 .footer-child-div {
     border: 1px solid #555555;
     background-color: rgba(51, 51, 51, .5);
-    border-radius: 4px;
-    flex-grow: 1;
-    padding: 2%;
+    border-radius: .125rem;
     margin: 1rem;
     max-width: 100%;
 }
@@ -914,13 +915,51 @@ input[type=radio] {
     display: block;
     float: left;
 }
-
+.thumbnailImage {
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+}
+.thumbnailAnchor {
+    height: 4rem;
+    border: 10px solid transparent;
+}
+.active {
+    border: 10px solid #ffa2ab;
+}
+.product-detailed-card-details-gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    background: none;
+    min-width: 100%;
+    padding: 1rem 0 0 0;
+    /* width: 30rem; */
+}
+.products-details-card-gallery {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.gallery-display-img {
+    margin: 0;
+    padding-bottom: 0;
+    width: 60rem;
+    height: 50rem;
+}
+.thumbnail-container {
+    width: inherit;
+    overflow-x: auto;
+}
+.gallery-nav {
+    padding-bottom: 0;
+}
 .submit-form-button {
     font-size: 1.25rem;
     font-weight: 400;
     padding: 1rem 2rem;
     color: #fff;
     background-color: #ffa2ab;
+
     border: none;
     outline: none;
     cursor: pointer;
