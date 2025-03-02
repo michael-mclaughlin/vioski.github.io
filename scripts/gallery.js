@@ -34,7 +34,7 @@ $(document).ready(function () {
                     productImage.attr('src', item.src);
                 });
                 if (activeLinkId) {
-                    $('.thumbnailAnchor').first().removeClass('active');
+                    // $('.thumbnailAnchor').first().removeClass('active');
                     $('a[id="' + activeLinkId + '"]').addClass('active');
                 }
             });
