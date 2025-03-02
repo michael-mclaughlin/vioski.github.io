@@ -17,18 +17,22 @@ $(document).ready(function () {
                 const thumbnail = imgElement.attr({ src: item.src, alt: item.alt, class: "thumbnailImage ", id: item.name + index });
                 anchor.append(thumbnail);
                 imageContainer.append(anchor);
-                $('.thumbnailAnchor').first().addClass('active');
+                
                 anchor.on('click', function () {
-                    $('.thumbnailAnchor').first().removeClass('active');
-                    $('.thumbnailAnchor').removeClass('active');
+                    // $('.thumbnailAnchor').first().removeClass('active');
+                    // $('.thumbnailAnchor').removeClass('active');
                     localStorage.setItem('activeLinkId', item.name + index);
                     localStorage.setItem('item', JSON.stringify(item));
                     $(this).addClass('active');
                     productImage.attr('src', item.src);
                 });
+                $('.thumbnailAnchor').first().addClass('active');
                 if (activeLinkId) {
+                    // $('.thumbnailAnchor').first().addClass('active');
                     // $('.thumbnailAnchor').first().removeClass('active');
                     $('a[id="' + activeLinkId + '"]').addClass('active');
+                    $('.thumbnailAnchor').first().removeClass('active');
+                    productImage.attr('src', theItem.src);
                 }
             });
 
