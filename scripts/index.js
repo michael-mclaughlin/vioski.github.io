@@ -8,39 +8,6 @@ $(document).ready(function(){
     mapProductDetails();
     mapFilterCollection();
     mapHomepageLinks();
-
-
-    $(function(){
-        var form = $('#contact-form-vioski');
-        var formSpan = $('#formMessagesSpan');
-//
-//        $('input[type=checkbox]').each(function () {
-//            var that = $(this);
-//            var checkboxIsChecked = (this.checked ? "1" : "0");
-//            if
-//        });
-
-        $(form).submit(function(event) {
-            event.preventDefault();
-            var formData = $(form).serialize();
-
-            $.ajax({
-                type: 'POST',
-                url: $(form).attr('action'),
-                data: formData
-            })
-            .done(function(response){
-                $(formSpan).addClass('success');
-                $(formSpan).removeClass('error');
-                $(formSpan).text('Thank you! We\'ll contact you soon!');
-            })
-            .fail(function(response){
-                $(formSpan).addClass('error');
-                $(formSpan).removeClass('success')
-                $(formSpan).text('Oops! Pleas try again.');
-            });
-        });
-    });
 });
 
 var dropDownUl = function (className){
@@ -202,53 +169,51 @@ var filterProducts = function () {
 var mapProductDetails = function () {
 
     var cardsProductsLinks = $('.cards-products-links');
-    var cplArray = cardsProductsLinks.map(function(index, elem){
+    cardsProductsLinks.map(function(index, elem){
         var that = $(this);
 
         that.on('click', function(){
-            var dataProductDetailsMap = data.productDetails.map(function(index, elem) {
-                var that = $(this);
+            let dataProductDetailsMap = data.productDetails.map(function(index, elem) {
                 return index;
             });
             var storedData = dataProductDetailsMap[index];
                 localStorage.setItem('storedData', JSON.stringify(storedData));
+                console.log('storedData', storedData);
         });
     }).get();
-    cplArray
+    
 };
 
 var mapFilterCollection = function (){
     var filterLinks = $('.header-nav-links');
 
-    var colArray = filterLinks.map(function(index, elem){
+    filterLinks.map(function(index, elem){
         var that = $(this);
         that.on('click', function(index, event){
             var that = $(this);
             var dataType = that.attr('data-type');
             var storedLinkData = dataType;
                 localStorage.setItem('storedLinkData', JSON.stringify(storedLinkData));
-            return;
+                console.log('storedLinkData', storedLinkData);
         });
     }).get();
-    colArray
 };
 
 var mapHomepageLinks = function (){
     var filterLinks = $('.homepage-links');
 
-    var homeLinkArray = filterLinks.map(function(index, elem){
+    filterLinks.map(function(index, elem){
         var that = $(this);
             that.on('click', function(index, event){
+                localStorage.clear();
                 var that = $(this);
                 var dataType = that.attr('data-type');
                 var storedHomeLinkData = dataType;
 
                     localStorage.setItem('storedHomeLinkData', JSON.stringify(storedHomeLinkData));
-                    console.log(storedHomeLinkData);
-                return;
+                    console.log('storedHomeLinkData', storedHomeLinkData);
             });
     }).get();
-    homeLinkArray
 };
 
 

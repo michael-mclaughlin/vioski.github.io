@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(function(){
-
+        
         var productName = $('#product-details-header-h1');
         var productSpan1 = $('#product-details-header-span1');
         var productSpan2 = $('#product-details-header-span2');
@@ -40,8 +40,10 @@ $(document).ready(function(){
 
             productTearSheetLink.attr('href', retrievedData.tear);
     });
-
     $('.header-h1-anchor').on('click', function(){
+        localStorage.clear();
+    });
+    $('.home-link-nav').on('click', function(){
         localStorage.clear();
     })
 

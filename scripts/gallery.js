@@ -11,11 +11,13 @@ $(document).ready(function () {
             const activeLinkId = localStorage.getItem('activeLinkId');
             $.each(dataProductsMap, function (index, item) {
                 let imgElement = $("<img>");
-                const anchor = $("<a></a>").attr({ class: "thumbnailAnchor", id: item.name + index, href: 'gallery.html' });
+                const anchor = $("<a></a>:eq(0)").attr({ class: "thumbnailAnchor", id: item.name + index, href: 'gallery.html' });
                 const thumbnail = imgElement.attr({ src: item.src, alt: item.alt, class: "thumbnailImage ", id: item.name + index });
                 anchor.append(thumbnail);
                 imageContainer.append(anchor);
+                
                 anchor.on('click', function () {
+                    
                     $('.thumbnailAnchor').removeClass('active');
                     localStorage.setItem('activeLinkId', item.name + index);
                     localStorage.setItem('item', JSON.stringify(item));
