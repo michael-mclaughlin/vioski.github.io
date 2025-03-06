@@ -17,7 +17,7 @@ $(document).ready(function () {
                 const thumbnail = imgElement.attr({ src: item.src, alt: item.alt, class: "thumbnailImage ", id: item.name + index });
                 anchor.append(thumbnail);
                 imageContainer.append(anchor);
-                
+                $('.thumbnailAnchor').first().addClass('active');
                 anchor.on('click', function () {
                     $('.thumbnailAnchor').first().removeClass('active');
                     // $('.thumbnailAnchor').removeClass('active');
@@ -26,11 +26,12 @@ $(document).ready(function () {
                     $(this).addClass('active');
                     productImage.attr('src', theItem.src);
                 });
-                $('.thumbnailAnchor').first().addClass('active');
+                
                 productImage.attr('src', theItem.src);
                 console.log('theItem', theItem);
                 if (activeLinkId) {
-                    // $('.thumbnailAnchor').first().addClass('active');
+                    $('.thumbnailAnchor').first().addClass('active');
+                    $('a[id="' + activeLinkId + '"]').addClass('active');
                     // $('.thumbnailAnchor').first().removeClass('active');
                     // $('a[id="' + activeLinkId + '"]').addClass('active');
                     $('.thumbnailAnchor').first().removeClass('active');
