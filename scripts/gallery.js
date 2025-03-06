@@ -26,7 +26,6 @@ $(document).ready(function () {
                 });
                 
                 productImage.attr('src', theItem.src);
-                console.log('theItem', theItem);
                 if (activeLinkId) {
                     $('.thumbnailAnchor').first().removeClass('active');
                     $('a[id="' + activeLinkId + '"]').addClass('active');
