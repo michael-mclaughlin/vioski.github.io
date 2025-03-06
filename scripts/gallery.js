@@ -20,7 +20,6 @@ $(document).ready(function () {
                 $('.thumbnailAnchor').first().addClass('active');
                 anchor.on('click', function () {
                     $('.thumbnailAnchor').first().removeClass('active');
-                    // $('.thumbnailAnchor').removeClass('active');
                     localStorage.setItem('activeLinkId', item.name + index);
                     localStorage.setItem('item', JSON.stringify(item));
                     $(this).addClass('active');
@@ -30,7 +29,7 @@ $(document).ready(function () {
                 productImage.attr('src', theItem.src);
                 console.log('theItem', theItem);
                 if (activeLinkId) {
-                    $('.thumbnailAnchor').first().addClass('active');
+                    // $('.thumbnailAnchor').first().addClass('active');
                     $('a[id="' + activeLinkId + '"]').addClass('active');
                     // $('.thumbnailAnchor').first().removeClass('active');
                     // $('a[id="' + activeLinkId + '"]').addClass('active');
