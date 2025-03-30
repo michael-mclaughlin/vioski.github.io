@@ -41,10 +41,10 @@ $(document).ready(function(){
             productTearSheetLink.attr('href', retrievedData.tear);
     });
     $('.header-h1-anchor').on('click', function(){
-        localStorage.clear();
+        // localStorage.clear();
     });
     $('.home-link-nav').on('click', function(){
-        localStorage.clear();
+        // localStorage.clear();
     })
 
 });
