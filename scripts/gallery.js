@@ -18,7 +18,6 @@ $(document).ready(function () {
                 imageContainer.append(anchor);
                 $('.thumbnailAnchor').first().addClass('active');
                 $('.thumbnailAnchor').first().trigger('click');
-
                 anchor.on('click', function () {
                     localStorage.setItem('activeLinkId', item.name + index);
                     localStorage.setItem('item', JSON.stringify(item));
