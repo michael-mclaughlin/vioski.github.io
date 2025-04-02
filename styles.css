@@ -933,7 +933,6 @@ input[type=radio] {
     background: none;
     min-width: 100%;
     padding: 1rem 0 0 0;
-    /* width: 30rem; */
 }
 .products-details-card-gallery {
     display: flex;
@@ -941,10 +940,9 @@ input[type=radio] {
     justify-content: space-around;
 }
 .gallery-display-img {
-    margin: 0;
-    padding-bottom: 0;
-    width: 60rem;
-    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .thumbnail-container {
     width: inherit;
@@ -953,134 +951,14 @@ input[type=radio] {
 .gallery-nav {
     padding-bottom: 0;
 }
-.submit-form-button {
-    font-size: 1.25rem;
-    font-weight: 400;
-    padding: 1rem 2rem;
-    color: #fff;
-    background-color: #ffa2ab;
-
-    border: none;
-    outline: none;
-    cursor: pointer;
-    float: right;
-    -webkit-transition: .25s ease-out;
-    -moz-transition: .25s ease-out;
-    -o-transition: .25s ease-out;
-    transition: .25s ease-out;
-}
-
-.submit-form-button:hover {
-    background-color: rgba(240,90,143, 1);
-}
-
-input::placeholder {
-    color: #e5e5e5;
-}
-
-.checkbox-container {
-    padding: .5rem 1rem 1.25rem;
-}
-
-.success {
-    color: green;
-}
-
-.error {
-    color: red;
-}
-
-.control {
-	font-size: 1rem;
-	position: relative;
-	display: block;
-	margin-bottom: 15px;
-	padding-left: 30px;
-	cursor: pointer;
-	color: #f3f3f3;
-	letter-spacing: 1.25px;
-	font-weight: 100;
-}
-
-.control input {
-	position: absolute;
-	z-index: -1;
-	opacity: 0;
-}
-
-.control__indicator {
-	position: absolute;
-	top: 2px;
-	left: 0;
-	width: 20px;
-	height: 20px;
-	background: #e6e6e6;
-}
-
-.control--radio .control__indicator {
-	border-radius: 50%;
-}
-
-/* Hover and focus states */
-.control:hover input ~ .control__indicator,
-.control input:focus ~ .control__indicator {
-	background: #ffa2ab;
-}
-
-/* Checked state */
-.control input:checked ~ .control__indicator {
-	background: rgba(240,90,143, 1);
-}
-
-/* Hover state whilst checked */
-.control:hover input:not([disabled]):checked ~ .control__indicator,
-.control input:checked:focus ~ .control__indicator {
-	background: rgba(240,90,143, 1);
-
-	/*background: #0e647d;*/
-}
-
-/* Check mark */
-.control__indicator:after {
-	position: absolute;
-	display: none;
-	content: '';
-}
-
-/* Show check mark */
-.control input:checked ~ .control__indicator:after {
-	display: block;
-}
-
-/* Checkbox tick */
-.control--checkbox .control__indicator:after {
-	top: 4px;
-	left: 8px;
-	width: 3px;
-	height: 8px;
-	transform: rotate(45deg);
-	border: solid #fff;
-	border-width: 0 2px 2px 0;
-}
-
-/* Radio button inner circle */
-.control--radio .control__indicator:after {
-	top: 7px;
-	left: 7px;
-	width: 6px;
-	height: 6px;
-	border-radius: 50%;
-	background: #fff;
-}
-
-/* Disabled circle colour */
-.control--radio input:disabled ~ .control__indicator:after {
-	background: #7b7b7b;
-}
-/* end contact form */
 
 
 /* mobile adaptive sizes */
+@media (max-width: 1225px) {
+    .tuula {
+        background-size: 20vw;
+    }
+}
 @media (max-width: 1050px) and (orientation: portrait) {
     header {
         height: 90vh;
@@ -1104,6 +982,9 @@ input::placeholder {
     .product-detailed-card,
     .product-detailed-card-details {
         width: auto;
+    }
+    .products-details-card-gallery {
+        padding-top: 7rem;
     }
 
 
@@ -1302,6 +1183,12 @@ input::placeholder {
 
 }
 
+@media (max-width: 725px) {
+    .tuula {
+        background-size: 25vw;
+    }
+}
+
 @media (max-width: 700px) and (orientation: portrait) {
     .angelesChairPink-image {
         background-size: 70%;
@@ -1332,10 +1219,6 @@ input::placeholder {
         margin: 0;
         max-width: 100%;
     }
-}
-
-@media (max-height: 500px) and (orientation: landscape) {
-
 }
 
 @media (max-width: 700px) {
