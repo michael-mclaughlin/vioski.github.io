@@ -9,7 +9,7 @@ $(document).ready(function () {
             const imageContainer = $('#product-detailed-card-details-gallery');
             const productImage = $('#gallery-grid-image');
             let activeLinkId = localStorage.getItem('activeLinkId');
-  
+
             $.each(dataProductsMap, function (index, item) {
                 let imgElement = $("<img>");
                 const anchor = $("<a></a>").attr({ class: "thumbnailAnchor", id: item.name + index, href: 'gallery.html' });
@@ -32,6 +32,26 @@ $(document).ready(function () {
 
         };
         changeImageOnClick();
+
+        const centerActiveLink = function() {
+            var container = $('.thumbnail-container');
+
+            var activeLink = container.find('a.active');
+
+            if (activeLink.length) {
+                var containerWidth = container.width();
+                var linkOffsetLeft = activeLink.position().left;
+                var linkWidth = activeLink.outerWidth();
+
+                var scrollPosition = linkOffsetLeft - (containerWidth / 2) + (linkWidth / 2);
+
+                container.animate({
+                    scrollLeft: scrollPosition
+                }, 200); // Adjust animation speed as needed
+            }
+        }
+
+        centerActiveLink();
 
         const displayDynamicGalleryImage = function () {
             const galleryImage = $('#gallery-grid-image');
